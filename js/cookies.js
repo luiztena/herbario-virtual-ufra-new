@@ -135,8 +135,7 @@ console.log('🔍 GA_MEASUREMENT_ID:', window.CONFIG?.GA_MEASUREMENT_ID);
             banner.style.display = 'block';
             console.log('👁️ Banner visível!');
             
-            // Adiciona borda vermelha para debug (remova depois)
-            banner.style.border = '2px solid red';
+       
             
             // Verifica se está realmente visível
             setTimeout(() => {
