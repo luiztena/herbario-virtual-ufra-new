@@ -1,0 +1,13 @@
+# .gitignore
+js/config.js
+*.config.js
+.env
+.env.local
+secrets/
+keys/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp

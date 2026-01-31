@@ -1,0 +1,660 @@
+/**
+ * ============================================================================
+ * ESTILOS DE ACESSIBILIDADE - HERBÁRIO VIRTUAL UFRA
+ * ============================================================================
+ * 
+ * Implementa WCAG 2.1 Nível AA:
+ * - Contraste adequado (4.5:1 para texto normal, 3:1 para texto grande)
+ * - Focus visível
+ * - Alto contraste
+ * - Responsividade
+ * - Cores seguras para daltonismo
+ * 
+ * @version 3.0
+ */
+
+/* ============================================================================
+   1. RESET E BASE
+   ============================================================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Remover outline padrão do navegador apenas quando :focus-visible não estiver ativo */
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* ============================================================================
+   2. SKIP LINKS
+   ============================================================================ */
+
+#skip-links {
+    position: relative;
+    z-index: 100000;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #2e7d32;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    z-index: 100001;
+    border-radius: 0 0 4px 0;
+    transition: top 0.3s ease;
+    white-space: nowrap;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #fff;
+    outline-offset: -3px;
+}
+
+/* ============================================================================
+   3. FOCUS VISÍVEL (WCAG 2.1 AA)
+   ============================================================================ */
+
+/* Focus padrão para todos os elementos interativos */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible {
+    outline: 3px solid #2e7d32;
+    outline-offset: 2px;
+}
+
+/* Focus especial para botões */
+button:focus-visible,
+.btn:focus-visible,
+.filter-btn:focus-visible {
+    outline: 3px solid #2e7d32;
+    outline-offset: 2px;
+    box-shadow: 0 0 0 5px rgba(46, 125, 50, 0.2);
+}
+
+/* Focus para cards */
+.plant-card:focus-visible,
+.genero-card:focus-visible,
+.card-link:focus-visible .plant-card,
+.card-link:focus-visible .genero-card {
+    outline: 3px solid #2e7d32;
+    outline-offset: 2px;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus para inputs */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 3px solid #2e7d32;
+    outline-offset: 2px;
+    border-color: #2e7d32;
+}
+
+/* ============================================================================
+   4. CONTROLES DE ACESSIBILIDADE
+   ============================================================================ */
+
+/* Botão de alto contraste */
+#toggle-contraste {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10001;
+    padding: 10px 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#toggle-contraste:hover {
+    background-color: #1b5e20;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#toggle-contraste:active {
+    transform: translateY(0);
+}
+
+/* Controles de fonte */
+#font-size-controls {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 10001;
+    display: flex;
+    gap: 5px;
+    background-color: #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#font-size-controls button {
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    min-width: 40px;
+}
+
+#font-size-controls button:hover:not(:disabled) {
+    background-color: #1b5e20;
+    transform: scale(1.05);
+}
+
+#font-size-controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ============================================================================
+   5. ALTO CONTRASTE
+   ============================================================================ */
+
+body.alto-contraste {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Textos */
+body.alto-contraste,
+body.alto-contraste p,
+body.alto-contraste li,
+body.alto-contraste span,
+body.alto-contraste div,
+body.alto-contraste td,
+body.alto-contraste th {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+/* Títulos */
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste h3,
+body.alto-contraste h4,
+body.alto-contraste h5,
+body.alto-contraste h6 {
+    color: #ffff00 !important;
+}
+
+/* Links */
+body.alto-contraste a {
+    color: #00ffff !important;
+    text-decoration: underline;
+}
+
+body.alto-contraste a:hover {
+    color: #ffff00 !important;
+}
+
+body.alto-contraste a:visited {
+    color: #ff00ff !important;
+}
+
+/* Botões */
+body.alto-contraste button,
+body.alto-contraste .btn,
+body.alto-contraste input[type="button"],
+body.alto-contraste input[type="submit"] {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste button:hover,
+body.alto-contraste .btn:hover {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+    border-color: #ffff00 !important;
+}
+
+/* Filtros */
+body.alto-contraste .filter-btn {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste .filter-btn.active {
+    background-color: #ffff00 !important;
+    color: #000 !important;
+    border-color: #ffff00 !important;
+}
+
+/* Cards */
+body.alto-contraste .plant-card,
+body.alto-contraste .genero-card,
+body.alto-contraste .mvv-card {
+    background-color: #000 !important;
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+
+body.alto-contraste .plant-card:hover,
+body.alto-contraste .genero-card:hover {
+    border-color: #ffff00 !important;
+    box-shadow: 0 0 10px #ffff00 !important;
+}
+
+/* Containers */
+body.alto-contraste .container,
+body.alto-contraste .content-container,
+body.alto-contraste .sectioncontainer,
+body.alto-contraste header,
+body.alto-contraste footer,
+body.alto-contraste main {
+    background-color: #000 !important;
+    border-color: #fff !important;
+}
+
+/* Inputs */
+body.alto-contraste input,
+body.alto-contraste textarea,
+body.alto-contraste select {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste input:focus,
+body.alto-contraste textarea:focus,
+body.alto-contraste select:focus {
+    border-color: #ffff00 !important;
+    outline-color: #ffff00 !important;
+}
+
+/* Imagens com bordas visíveis */
+body.alto-contraste img {
+    border: 2px solid #fff;
+}
+
+/* Ícones sociais */
+body.alto-contraste .social-icons a {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+/* Footer */
+body.alto-contraste footer {
+    border-top: 3px solid #fff !important;
+}
+
+/* Controles de acessibilidade em alto contraste */
+body.alto-contraste #toggle-contraste {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste #font-size-controls {
+    background-color: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste #font-size-controls button {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+/* ============================================================================
+   6. MELHORIAS DE CONTRASTE (WCAG AA)
+   ============================================================================ */
+
+/* Garantir contraste mínimo de 4.5:1 para texto normal */
+a {
+    color: #1565c0; /* Azul mais escuro para melhor contraste */
+}
+
+a:hover {
+    color: #0d47a1; /* Ainda mais escuro no hover */
+}
+
+/* Garantir contraste em botões */
+.btn,
+button {
+    min-height: 44px; /* Tamanho mínimo de toque WCAG */
+    min-width: 44px;
+}
+
+/* Garantir contraste em textos sobre imagens */
+.hero h2,
+.hero p {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================================================
+   7. ESTADOS DESABILITADOS
+   ============================================================================ */
+
+button:disabled,
+input:disabled,
+textarea:disabled,
+select:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* ============================================================================
+   8. MENSAGENS DE STATUS (LEITORES DE TELA)
+   ============================================================================ */
+
+#sr-live-region {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Elementos ocultos visualmente mas acessíveis para leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: inherit;
+    margin: inherit;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+}
+
+/* ============================================================================
+   9. ANIMAÇÕES REDUZIDAS (prefers-reduced-motion)
+   ============================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ============================================================================
+   10. RESPONSIVIDADE MOBILE
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    /* Controles de acessibilidade em mobile */
+    #toggle-contraste {
+        top: 10px;
+        right: 10px;
+        padding: 8px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    #toggle-contraste span:not([aria-hidden]) {
+        display: none;
+    }
+    
+    #font-size-controls {
+        top: 60px;
+        right: 10px;
+        flex-direction: column;
+    }
+    
+    #font-size-controls button {
+        min-width: 44px;
+        min-height: 44px;
+    }
+    
+    /* Skip links mais visíveis em mobile */
+    .skip-link:focus {
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    
+    /* Aumentar área de toque para elementos interativos */
+    button,
+    .btn,
+    a {
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
+/* ============================================================================
+   11. MELHORIAS DE USABILIDADE
+   ============================================================================ */
+
+/* Cursor pointer para elementos clicáveis */
+button,
+.btn,
+a,
+[role="button"],
+[tabindex="0"] {
+    cursor: pointer;
+}
+
+/* Evitar seleção acidental de texto em botões */
+button,
+.btn {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Garantir que imagens não quebrem o layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============================================================================
+   12. DALTONISMO (Cores seguras)
+   ============================================================================ */
+
+/* Usar padrões além de cor para transmitir informação */
+.filter-btn.active::before {
+    content: '✓ ';
+    font-weight: bold;
+}
+
+.plant-card:hover {
+    border-left: 4px solid #2e7d32; /* Indicador visual além da cor */
+}
+
+/* ============================================================================
+   13. TABELAS ACESSÍVEIS
+   ============================================================================ */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+td,
+th {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Em alto contraste */
+body.alto-contraste table,
+body.alto-contraste td,
+body.alto-contraste th {
+    border-color: #fff !important;
+}
+
+body.alto-contraste th {
+    background-color: #333 !important;
+}
+
+/* ============================================================================
+   14. FORMULÁRIOS ACESSÍVEIS
+   ============================================================================ */
+
+/* Labels visíveis e associadas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Indicação de campos obrigatórios */
+input:required,
+textarea:required,
+select:required {
+    border-left: 3px solid #2e7d32;
+}
+
+/* Mensagens de erro */
+.error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+body.alto-contraste .error-message {
+    color: #ff0000 !important;
+    font-weight: bold;
+}
+
+/* ============================================================================
+   15. LOADING E FEEDBACK VISUAL
+   ============================================================================ */
+
+.loading {
+    position: relative;
+}
+
+.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #2e7d32;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ============================================================================
+   16. IMPRESSÃO
+   ============================================================================ */
+
+@media print {
+    /* Ocultar controles de acessibilidade ao imprimir */
+    #toggle-contraste,
+    #font-size-controls,
+    #skip-links,
+    nav,
+    footer,
+    .social-icons {
+        display: none !important;
+    }
+    
+    /* Garantir contraste adequado */
+    body,
+    body.alto-contraste {
+        background: white !important;
+        color: black !important;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+    
+    /* Mostrar URLs dos links */
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 90%;
+    }
+}
+
+/* Estilo para ocultar elementos de leitores de tela */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Otimização para leitores de tela */
+.plant-card {
+    contain: content;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-size: 0.75rem;
+    line-height: 1.3;
+    padding: 4px;
+    background: #f5f5f5;
+}
+
+/* Prevenir múltiplos anúncios */
+.plants-grid {
+    contain: layout style paint;
+}
+

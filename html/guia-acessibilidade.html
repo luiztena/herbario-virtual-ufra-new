@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Acessibilidade - Herbário Virtual UFRA</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../imagens/site-imagem/folha.png">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/Herbario.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/altocontraste.css">
+  <link rel="stylesheet" href="../css/atalho-acessibilidade.css">
+  <link rel="stylesheet" href="../css/guia-acessibilidade.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- VLibras (Widget de acessibilidade em Libras) -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  
+</head>
+
+<body class="bodyhome" aria-label="Guia de acessibilidade do Herbário Virtual da UFRA">
+  <!-- Skip link para acessibilidade -->
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+  
+  <!-- Cabeçalho -->
+  <header role="banner">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <a href="../index.html" aria-label="Voltar para a página inicial">
+            <img src="../imagens/site-imagem/brasao.png" 
+                 class="logo" 
+                 alt="Brasão da Universidade Federal Rural da Amazônia - UFRA"
+                 width="60"
+                 height="60">
+          </a>
+          <div class="logo-text">
+            <h1>Universidade Federal Rural da Amazônia UFRA</h1>
+          </div>
+        </div>
+        <nav role="navigation" aria-label="Menu principal">
+          <ul>
+            <li><a href="home.html" id="home-link">Início</a></li>
+            <li><a href="../index.html" id="plantas-link">Plantas</a></li>
+            <li><a href="contribua.html" id="contribua-link">Contribua</a></li>
+            <li><a href="categorias.html" id="categorias-link">Categorias</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="hero" role="region" aria-label="Banner principal do guia de acessibilidade">
+    <div class="herocontainer">
+      <h2>Guia de Acessibilidade</h2>
+      <p>
+        Conheça todos os recursos disponíveis para tornar sua experiência no Herbário Virtual mais inclusiva e acessível.
+      </p>
+    </div>
+  </section>
+
+  <!-- Conteúdo principal -->
+  <main id="main-content" role="main">
+    <section id="sobre-acessibilidade" class="section" aria-labelledby="sobre-acessibilidade-titulo">
+      <div class="sectioncontainer">
+        
+        <!-- Introdução -->
+        <div class="paragrafo-container">
+          <div class="paragrafo">
+            <h1 id="sobre-acessibilidade-titulo">Acessibilidade Digital</h1>
+            <p>
+              Este portal segue as diretrizes do <strong>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</strong>, 
+              conforme as normas do Governo Federal, em obediência ao <strong>Decreto 5.296, de 2.12.2004</strong>.
+            </p>
+            <p>
+              O termo acessibilidade significa incluir a pessoa com deficiência na participação de atividades como o uso de 
+              produtos, serviços e informações. Alguns exemplos são os prédios com rampas de acesso para cadeira de rodas 
+              e banheiros adaptados para deficientes.
+            </p>
+            <p>
+              Na internet, acessibilidade refere-se principalmente às recomendações do 
+              <strong>WCAG (World Content Accessibility Guide) do W3C</strong> e no caso do Governo Brasileiro ao 
+              <strong>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</strong>. O e-MAG está alinhado às 
+              recomendações internacionais, mas estabelece padrões de comportamento acessível para sites governamentais.
+            </p>
+            <p>
+              No Herbário Virtual, estamos comprometidos em garantir que todas as pessoas, independentemente de suas 
+              habilidades, possam acessar e utilizar nossos recursos de forma plena e independente.
+            </p>
+          </div>
+          <div class="imagem">
+            <figure>
+              <img src="../imagens/site-imagem/acessibilidade.png" 
+                   alt="Símbolo internacional de acessibilidade representando uma pessoa em cadeira de rodas" 
+                   loading="lazy">
+              <figcaption>Símbolo internacional de acessibilidade</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Índice de Navegação -->
+        <div class="acessibilidade-indice" role="navigation" aria-label="Índice do guia de acessibilidade">
+          <h2>Neste guia você encontrará:</h2>
+          <ul class="indice-lista">
+            <li><a href="#vlibras"><i class="fas fa-hands" aria-hidden="true"></i> VLibras - Tradutor para Libras</a></li>
+            <li><a href="#leitor-texto"><i class="fas fa-volume-up" aria-hidden="true"></i> Leitores de Tela</a></li>
+            <li><a href="#alto-contraste"><i class="fas fa-adjust" aria-hidden="true"></i> Modo Alto Contraste</a></li>
+            <li><a href="#atalhos-teclado"><i class="fas fa-keyboard" aria-hidden="true"></i> Atalhos de Teclado</a></li>
+            <li><a href="#ampliacao-tela"><i class="fas fa-search-plus" aria-hidden="true"></i> Ampliação da Tela</a></li>
+            <li><a href="#normas-padroes"><i class="fas fa-gavel" aria-hidden="true"></i> Normas e Padrões</a></li>
+          </ul>
+        </div>
+
+        <!-- Seção VLibras -->
+        <section id="vlibras" class="recurso-section" aria-labelledby="vlibras-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">👐</span>
+            <h2 id="vlibras-titulo">VLibras - Tradutor para Libras</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="paragrafo">
+              <h3>O que é o VLibras?</h3>
+              <p>
+                O VLibras é uma suíte de ferramentas gratuitas e de código aberto que traduz conteúdos digitais 
+                (texto, áudio e vídeo) para a Língua Brasileira de Sinais (Libras), tornando computadores, 
+                dispositivos móveis e plataformas Web acessíveis para pessoas surdas.
+              </p>
+              
+              <h3>Como usar no nosso site:</h3>
+              <div class="instrucao-card">
+                <div class="instrucao-numero">1</div>
+                <div class="instrucao-conteudo">
+                  <h4>Localize o ícone do VLibras</h4>
+                  <p>No canto inferior direito de todas as páginas do site, você encontrará o ícone do VLibras (mãozinha).</p>
+                </div>
+              </div>
+              
+              <div class="instrucao-card">
+                <div class="instrucao-numero">2</div>
+                <div class="instrucao-conteudo">
+                  <h4>Clique para abrir</h4>
+                  <p>Clique no ícone para abrir a janela do tradutor.</p>
+                </div>
+              </div>
+              
+              <div class="instrucao-card">
+                <div class="instrucao-numero">3</div>
+                <div class="instrucao-conteudo">
+                  <h4>Selecione o texto</h4>
+                  <p>Selecione qualquer texto no site e clique no botão "Traduzir" na janela do VLibras.</p>
+                </div>
+              </div>
+              
+              <div class="instrucao-card">
+                <div class="instrucao-numero">4</div>
+                <div class="instrucao-conteudo">
+                  <h4>Assista à tradução</h4>
+                  <p>O avatar 3D fará a tradução automática para Libras.</p>
+                </div>
+              </div>
+              
+              <div class="dica-importante">
+                <h4><i class="fas fa-lightbulb" aria-hidden="true"></i> Dica importante:</h4>
+                <p>O VLibras também está disponível como extensão para navegadores e aplicativo para celular. 
+                Você pode baixá-lo gratuitamente no site oficial do <a href="https://www.vlibras.gov.br/" target="_blank">VLibras</a>.</p>
+              </div>
+            </div>
+            
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/vlibras.jpg" 
+                     alt="Demonstração do VLibras em funcionamento com avatar traduzindo texto para Libras" 
+                     loading="lazy">
+                <figcaption>Interface do VLibras com avatar em Libras</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Leitores de Tela -->
+        <section id="leitor-texto" class="recurso-section" aria-labelledby="leitor-texto-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">🎧</span>
+            <h2 id="leitor-texto-titulo">Leitores de Tela</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/leitor.jpg" 
+                     alt="Pessoa usando fones de ouvido enquanto navega em site com leitor de tela" 
+                     loading="lazy">
+                <figcaption>Navegação com leitor de tela</figcaption>
+              </figure>
+            </div>
+            
+            <div class="paragrafo">
+              <h3>O que são leitores de tela?</h3>
+              <p>
+                Leitores de tela são softwares que convertem texto e elementos visuais em fala ou braille, 
+                permitindo que pessoas com deficiência visual possam navegar na web, usar aplicativos e 
+                interagir com dispositivos digitais.
+              </p>
+              
+              <h3>Leitores recomendados:</h3>
+              
+              <div class="leitor-card">
+                <div class="leitor-icon">
+                  <i class="fab fa-windows" aria-hidden="true"></i>
+                </div>
+                <div class="leitor-conteudo">
+                  <h4>NVDA (Windows)</h4>
+                  <p><strong>Gratuito e de código aberto</strong>. Disponível em português. 
+                  <a href="https://www.nvaccess.org/" target="_blank">Download oficial</a></p>
+                </div>
+              </div>
+              
+              <div class="leitor-card">
+                <div class="leitor-icon">
+                  <i class="fab fa-apple" aria-hidden="true"></i>
+                </div>
+                <div class="leitor-conteudo">
+                  <h4>VoiceOver (macOS/iOS)</h4>
+                  <p><strong>Integrado ao sistema</strong>. Ative em Configurações > Acessibilidade > VoiceOver.</p>
+                </div>
+              </div>
+              
+              <div class="leitor-card">
+                <div class="leitor-icon">
+                  <i class="fab fa-google" aria-hidden="true"></i>
+                </div>
+                <div class="leitor-conteudo">
+                  <h4>TalkBack (Android)</h4>
+                  <p><strong>Integrado ao sistema</strong>. Ative em Configurações > Acessibilidade > TalkBack.</p>
+                </div>
+              </div>
+              
+              <div class="leitor-card">
+                <div class="leitor-icon">
+                  <i class="fas fa-desktop" aria-hidden="true"></i>
+                </div>
+                <div class="leitor-conteudo">
+                  <h4>JAWS (Windows)</h4>
+                  <p><strong>Software comercial</strong>. Versão de teste gratuita disponível. 
+                  <a href="https://www.freedomscientific.com/products/software/jaws/" target="_blank">Site oficial</a></p>
+                </div>
+              </div>
+              
+              <h3>Nosso site é compatível com:</h3>
+              <ul class="compatibilidade-lista">
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Navegação por teclado</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Textos alternativos em todas as imagens</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Estrutura semântica de cabeçalhos</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Atributos ARIA para elementos interativos</li>
+                <li><i class="fas fa-check-circle" aria-hidden="true"></i> Descrições para gráficos e tabelas</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Alto Contraste -->
+        <section id="alto-contraste" class="recurso-section" aria-labelledby="alto-contraste-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">⚫⚪</span>
+            <h2 id="alto-contraste-titulo">Modo Alto Contraste</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="paragrafo">
+              <h3>O que é o modo alto contraste?</h3>
+              <p>
+                O modo alto contraste aumenta a diferença entre cores do primeiro plano (texto) e do fundo, 
+                facilitando a leitura para pessoas com baixa visão, daltonismo ou sensibilidade à luz.
+              </p>
+              
+              <h3>Como ativar no nosso site:</h3>
+              
+              <div class="controle-card">
+                <div class="controle-icon">
+                  <i class="fas fa-mouse-pointer" aria-hidden="true"></i>
+                </div>
+                <div class="controle-conteudo">
+                  <h4>Usando o mouse:</h4>
+                  <p>Clique no botão <strong>"Alto Contraste"</strong> localizado no canto inferior direito da tela.</p>
+                </div>
+              </div>
+              
+              <div class="controle-card">
+                <div class="controle-icon">
+                  <i class="fas fa-keyboard" aria-hidden="true"></i>
+                </div>
+                <div class="controle-conteudo">
+                  <h4>Usando o teclado:</h4>
+                  <p>Pressione <kbd>Alt</kbd> + <kbd>C</kbd> para alternar o modo alto contraste.</p>
+                </div>
+              </div>
+              
+              <h3>Também é possível ativar no seu sistema operacional:</h3>
+              
+              <div class="sistema-card">
+                <h4><i class="fab fa-windows" aria-hidden="true"></i> Windows</h4>
+                <p>Configurações > Facilidade de Acesso > Alto Contraste</p>
+              </div>
+              
+              <div class="sistema-card">
+                <h4><i class="fab fa-apple" aria-hidden="true"></i> macOS</h4>
+                <p>Preferências do Sistema > Acessibilidade > Display > Inverter cores</p>
+              </div>
+              
+              <div class="sistema-card">
+                <h4><i class="fab fa-android" aria-hidden="true"></i> Android</h4>
+                <p>Configurações > Acessibilidade > Melhorar visibilidade > Alto contraste</p>
+              </div>
+              
+              <div class="beneficios-alto-contraste">
+                <h4><i class="fas fa-heart" aria-hidden="true"></i> Benefícios do alto contraste:</h4>
+                <ul>
+                  <li>Reduz a fadiga visual durante longos períodos de leitura</li>
+                  <li>Melhora a legibilidade para pessoas com daltonismo</li>
+                  <li>Aumenta o conforto para usuários fotossensíveis</li>
+                  <li>Facilita a leitura em ambientes com muita ou pouca luz</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/alto-contraste.png" 
+                     alt="Modo alto contraste em um site" 
+                     loading="lazy">
+                <figcaption>Comparação: modo normal vs alto contraste</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Atalhos de Teclado -->
+        <section id="atalhos-teclado" class="recurso-section" aria-labelledby="atalhos-teclado-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">⌨️</span>
+            <h2 id="atalhos-teclado-titulo">Atalhos de Teclado</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/atalho.jpg" 
+                     alt="Mão usando teclado com destaque para teclas de atalho" 
+                     loading="lazy">
+                <figcaption>Navegação por teclado no Herbário Virtual</figcaption>
+              </figure>
+            </div>
+            
+            <div class="paragrafo">
+              <h3>Atalhos padrão do Herbário Virtual:</h3>
+              <p>
+                Nosso site implementa atalhos de teclado seguindo as recomendações do e-MAG. 
+                Em qualquer página do portal, você pode usar os seguintes atalhos:
+              </p>
+              
+              <div class="atalhos-grid">
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>1</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Voltar ao topo</h4>
+                    <p>Vai diretamente para o início da página atual</p>
+                  </div>
+                </div>
+                
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>2</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Conteúdo principal</h4>
+                    <p>Vai diretamente para o conteúdo principal da página</p>
+                  </div>
+                </div>
+                
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>3</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Ir para o rodapé</h4>
+                    <p>Vai diretamente para o rodapé da página</p>
+                  </div>
+                </div>
+                
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>0</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Menu de navegação</h4>
+                    <p>Vai diretamente para o menu principal</p>
+                  </div>
+                </div>
+                
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>S</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Barra de pesquisa</h4>
+                    <p>Vai diretamente para a barra de pesquisa</p>
+                  </div>
+                </div>
+                
+                <div class="atalho-card">
+                  <div class="atalho-keys">
+                    <kbd>Alt</kbd> + <kbd>C</kbd>
+                  </div>
+                  <div class="atalho-descricao">
+                    <h4>Chamadas de ação</h4>
+                    <p>Vai para botões principais de ação</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="dica-navegacao">
+                <h4><i class="fas fa-lightbulb" aria-hidden="true"></i> Dicas de navegação por teclado:</h4>
+                <ul>
+                  <li><strong>Tab</strong>: Avança entre elementos interativos</li>
+                  <li><strong>Shift + Tab</strong>: Retrocede entre elementos interativos</li>
+                  <li><strong>Enter</strong>: Ativa links e botões</li>
+                  <li><strong>Espaço</strong>: Rola a página ou ativa botões</li>
+                  <li><strong>Setas</strong>: Navega em menus e listas</li>
+                </ul>
+              </div>
+              
+              <div class="observacao-atalhos">
+                <h4><i class="fas fa-exclamation-circle" aria-hidden="true"></i> Observação importante:</h4>
+                <p>
+                  Em alguns navegadores (como Chrome, Edge, Opera), você pode precisar pressionar 
+                  <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Tecla</kbd> em vez de apenas <kbd>Alt</kbd> + <kbd>Tecla</kbd>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Ampliação da Tela -->
+        <section id="ampliacao-tela" class="recurso-section" aria-labelledby="ampliacao-tela-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">🔍</span>
+            <h2 id="ampliacao-tela-titulo">Ampliação da Tela (Zoom)</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="paragrafo">
+              <h3>Como ampliar ou reduzir a tela</h3>
+              <p>
+                Nosso site foi desenvolvido para suportar ampliação de até 200% sem perda de funcionalidade 
+                ou quebra de layout. Você pode usar diferentes métodos para ajustar o zoom:
+              </p>
+              
+              <h3>Usando o teclado:</h3>
+              
+              <div class="zoom-card">
+                <div class="zoom-icon">
+                  <i class="fas fa-plus-circle" aria-hidden="true"></i>
+                </div>
+                <div class="zoom-conteudo">
+                  <h4>Aumentar zoom</h4>
+                  <p><kbd>Ctrl</kbd> + <kbd>+</kbd> (Windows/Linux) ou <kbd>Cmd</kbd> + <kbd>+</kbd> (macOS)</p>
+                </div>
+              </div>
+              
+              <div class="zoom-card">
+                <div class="zoom-icon">
+                  <i class="fas fa-minus-circle" aria-hidden="true"></i>
+                </div>
+                <div class="zoom-conteudo">
+                  <h4>Diminuir zoom</h4>
+                  <p><kbd>Ctrl</kbd> + <kbd>-</kbd> (Windows/Linux) ou <kbd>Cmd</kbd> + <kbd>-</kbd> (macOS)</p>
+                </div>
+              </div>
+              
+              <div class="zoom-card">
+                <div class="zoom-icon">
+                  <i class="fas fa-undo" aria-hidden="true"></i>
+                </div>
+                <div class="zoom-conteudo">
+                  <h4>Zoom padrão (100%)</h4>
+                  <p><kbd>Ctrl</kbd> + <kbd>0</kbd> (Windows/Linux) ou <kbd>Cmd</kbd> + <kbd>0</kbd> (macOS)</p>
+                </div>
+              </div>
+              
+              <h3>Usando o mouse:</h3>
+              
+              <div class="zoom-card">
+                <div class="zoom-icon">
+                  <i class="fas fa-mouse" aria-hidden="true"></i>
+                </div>
+                <div class="zoom-conteudo">
+                  <h4>Com rolagem do mouse</h4>
+                  <p><kbd>Ctrl</kbd> + <strong>rolar para cima</strong> (aumentar) ou <strong>rolar para baixo</strong> (diminuir)</p>
+                </div>
+              </div>
+              
+              <div class="zoom-card">
+                <div class="zoom-icon">
+                  <i class="fas fa-expand-alt" aria-hidden="true"></i>
+                </div>
+                <div class="zoom-conteudo">
+                  <h4>Menu do navegador</h4>
+                  <p>No menu do navegador: Exibir > Zoom > Aumentar/Diminuir</p>
+                </div>
+              </div>
+              
+              <h3>Lupa do sistema operacional:</h3>
+              
+              <div class="lupa-card">
+                <h4><i class="fab fa-windows" aria-hidden="true"></i> Lupa do Windows</h4>
+                <p><kbd>Win</kbd> + <kbd>+</kbd> para ativar. <kbd>Win</kbd> + <kbd>Esc</kbd> para desativar.</p>
+              </div>
+              
+              <div class="lupa-card">
+                <h4><i class="fab fa-apple" aria-hidden="true"></i> Zoom do macOS</h4>
+                <p><kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>8</kbd> para ativar/desativar.</p>
+              </div>
+              
+              <div class="lupa-card">
+                <h4><i class="fas fa-mobile-alt" aria-hidden="true"></i> Zoom no celular</h4>
+                <p>Toque duplo com dois dedos e afaste ou aproxime para ajustar o zoom.</p>
+              </div>
+              
+              <div class="recursos-site">
+                <h4><i class="fas fa-check" aria-hidden="true"></i> Nosso site mantém funcionalidade com zoom:</h4>
+                <ul>
+                  <li>Até 200%: Layout totalmente funcional</li>
+                  <li>200%-300%: Layout adaptável, sem sobreposição</li>
+                  <li>Acima de 300%: Navegação horizontal necessária</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/lupa.jpg" 
+                     alt="Simbolo de Mais Zoom, Menos Zoom e Zoom normal" 
+                     loading="lazy">
+                <figcaption>Site com zoom aplicado mantendo usabilidade</figcaption>
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <!-- Seção Normas e Padrões -->
+        <section id="normas-padroes" class="recurso-section" aria-labelledby="normas-padroes-titulo">
+          <div class="recurso-header">
+            <span class="emoji-icon" aria-hidden="true">📋</span>
+            <h2 id="normas-padroes-titulo">Normas e Padrões de Acessibilidade</h2>
+          </div>
+          
+          <div class="paragrafo-container">
+            <div class="imagem">
+              <figure>
+                <img src="../imagens/site-imagem/simbolos-acessibilidade.png" 
+                     alt="Símbolos de diferentes padrões de acessibilidade digital" 
+                     loading="lazy">
+                <figcaption>Padrões internacionais de acessibilidade</figcaption>
+              </figure>
+            </div>
+            
+            <div class="paragrafo">
+              <h3>Conformidade com padrões internacionais</h3>
+              <p>
+                O Herbário Virtual da UFRA foi desenvolvido seguindo as principais diretrizes e normas 
+                de acessibilidade digital:
+              </p>
+              
+              <div class="norma-card">
+                <div class="norma-icon">
+                  <i class="fas fa-university" aria-hidden="true"></i>
+                </div>
+                <div class="norma-conteudo">
+                  <h4>e-MAG (Modelo de Acessibilidade em Governo Eletrônico)</h4>
+                  <p>Padrão brasileiro estabelecido pelo Decreto 5.296/2004. Atualmente na versão 3.1.</p>
+                  <a href="https://www.gov.br/governodigital/pt-br/acessibilidade-digital/modelo-de-acessibilidade" target="_blank">
+                    Saiba mais sobre o e-MAG
+                  </a>
+                </div>
+              </div>
+              
+              <div class="norma-card">
+                <div class="norma-icon">
+                  <i class="fas fa-globe" aria-hidden="true"></i>
+                </div>
+                <div class="norma-conteudo">
+                  <h4>WCAG 2.1 (Web Content Accessibility Guidelines)</h4>
+                  <p>Diretrizes internacionais do W3C. Nível de conformidade: AA (duplo A).</p>
+                  <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank">
+                    Visite o site do WCAG
+                  </a>
+                </div>
+              </div>
+              
+              <div class="norma-card">
+                <div class="norma-icon">
+                  <i class="fas fa-flag" aria-hidden="true"></i>
+                </div>
+                <div class="norma-conteudo">
+                  <h4>Lei Brasileira de Inclusão (LBI) - Lei 13.146/2015</h4>
+                  <p>Estabelece a acessibilidade como direito fundamental da pessoa com deficiência.</p>
+                </div>
+              </div>
+              
+              <div class="norma-card">
+                <div class="norma-icon">
+                  <i class="fas fa-gavel" aria-hidden="true"></i>
+                </div>
+                <div class="norma-conteudo">
+                  <h4>Decreto 10.177/2019</h4>
+                  <p>Regulamenta a acessibilidade nos sítios eletrônicos e aplicativos de governo.</p>
+                </div>
+              </div>
+              
+              <h3>Princípios de acessibilidade que seguimos:</h3>
+              
+              <div class="principios-grid">
+                <div class="principio-item">
+                  <h4><span class="emoji-icon" aria-hidden="true">👁️</span> Perceptível</h4>
+                  <p>Informações e componentes da interface devem ser apresentados de forma perceptível</p>
+                </div>
+                
+                <div class="principio-item">
+                  <h4><span class="emoji-icon" aria-hidden="true">✋</span> Operável</h4>
+                  <p>Componentes da interface devem ser operáveis por diferentes formas de interação</p>
+                </div>
+                
+                <div class="principio-item">
+                  <h4><span class="emoji-icon" aria-hidden="true">🧠</span> Compreensível</h4>
+                  <p>Informações e operação da interface devem ser compreensíveis</p>
+                </div>
+                
+                <div class="principio-item">
+                  <h4><span class="emoji-icon" aria-hidden="true">⚙️</span> Robusto</h4>
+                  <p>Conteúdo deve ser robusto o suficiente para ser interpretado por diversas tecnologias</p>
+                </div>
+              </div>
+              
+              <div class="compromisso-acessibilidade">
+                <h4><i class="fas fa-handshake" aria-hidden="true"></i> Nosso compromisso:</h4>
+                <p>
+                  Estamos em constante processo de melhoria da acessibilidade do Herbário Virtual. 
+                  Se você encontrou alguma barreira de acesso ou tem sugestões de melhorias, 
+                  entre em contato conosco através da página <a href="contribua.html">Contribua</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Botão para voltar ao topo -->
+        <div class="voltar-topo-container">
+          <a href="#main-content" class="btn-voltar-topo">
+            <i class="fas fa-arrow-up" aria-hidden="true"></i>
+            Voltar ao topo
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact" role="contentinfo" aria-label="Rodapé">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Herbário Virtual</h3>
+          <p>Explore a diversidade vegetal através do nosso catálogo digital. Conhecimento botânico ao alcance de todos.</p>
+          <div class="social-icons" aria-label="Redes sociais">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Links Rápidos</h3>
+          <ul class="footer-links" aria-label="Links rápidos do site">
+            <li><a href="home.html">Início</a></li>
+            <li><a href="../index.html">Catálogo de Plantas</a></li>
+            <li><a href="contribua.html">Contribua</a></li>
+            <li><a href="guia-acessibilidade.html">Acessibilidade</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Categorias</h3>
+          <ul class="footer-links" aria-label="Categorias de plantas">
+            <li><a href="categorias.html?filter=medicinal">Plantas Medicinais</a></li>
+            <li><a href="categorias.html?filter=ornamental">Plantas Ornamentais</a></li>
+            <li><a href="categorias.html?filter=frutifera">Plantas Frutíferas</a></li>
+            <li><a href="categorias.html?filter=madeireira">Plantas Madeireiras</a></li>
+            <li><a href="categorias.html?filter=oportunista">Plantas Oportunistas</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 Herbário Virtual - UFRA. Todos os direitos reservados.</p>
+        <p class="acessibilidade-nota">
+          <i class="fas fa-universal-access" aria-hidden="true"></i>
+          Este site segue as diretrizes de acessibilidade do e-MAG 3.1 e WCAG 2.1 Nível AA
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VLibras Widget -->
+  <div vw class="enabled">
+    <div vw-access-button class="active" aria-label="Abrir tradutor de Libras"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Inicializar VLibras
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+    
+    // Script para melhorar acessibilidade
+    document.addEventListener('DOMContentLoaded', function() {
+      // Adicionar label para o botão VLibras
+      const vlibrasButton = document.querySelector('[vw-access-button]');
+      if (vlibrasButton) {
+        vlibrasButton.setAttribute('aria-label', 'Abrir tradutor de Libras');
+      }
+      
+      // Adicionar navegação por teclado para índice
+      const indiceLinks = document.querySelectorAll('.indice-lista a');
+      indiceLinks.forEach(link => {
+        link.setAttribute('tabindex', '0');
+      });
+      
+      // Botão voltar ao topo suave
+      const btnVoltarTopo = document.querySelector('.btn-voltar-topo');
+      if (btnVoltarTopo) {
+        btnVoltarTopo.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+      
+      // Adicionar IDs às seções se não existirem
+      document.querySelectorAll('.recurso-section h2').forEach((h2, index) => {
+        if (!h2.id) {
+          h2.id = 'secao-' + (index + 1);
+        }
+      });
+    });
+  </script>
+  
+  <!-- Botão flutuante para voltar ao topo -->
+  <button id="btn-topo-flutuante" class="floating-top-btn" aria-label="Voltar ao topo da página" title="Voltar ao topo (Alt+1)">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="../js/altocontraste.js"></script>
+  <script src="../js/home.js"></script>
+  <script src="../js/atalho-acessibilidade.js"></script>
+  <script src="../js/guia-acessibilidade.js"></script>
+</body>
+</html>

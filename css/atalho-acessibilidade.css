@@ -1,0 +1,598 @@
+/* ================================================
+   atalhos-acessibilidade.css
+   Estilos para sistema de atalhos de teclado
+   ================================================ */
+
+/* Modal de ajuda */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(3px);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  padding: 20px 30px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.shortcuts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.shortcut-item kbd {
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  min-width: 60px;
+  text-align: center;
+  display: inline-block;
+}
+
+.shortcut-item span {
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+}
+
+.modal-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-modal-close {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-modal-close:hover {
+  background-color: #1b5e20;
+  transform: translateY(-2px);
+}
+
+/* Botão flutuante de ajuda */
+.floating-help-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.floating-help-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(46, 125, 50, 0.6);
+}
+
+.floating-help-btn .tooltip {
+  position: absolute;
+  right: 70px;
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.floating-help-btn:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Feedback visual quando atalho é usado */
+.accesskey-feedback {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  z-index: 10001;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.3s ease;
+  font-weight: 500;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* Dica visual para elementos com accesskey */
+.accesskey-hint {
+  font-size: 0.85em;
+  color: #4caf50;
+  margin-left: 4px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* Estilo para foco em elementos selecionados por atalhos */
+.atalho-focado {
+  outline: 3px solid #ff9800 !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3) !important;
+  transition: outline 0.2s ease;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 10% auto;
+    width: 95%;
+  }
+  
+  .shortcuts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .floating-help-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  .floating-help-btn .tooltip {
+    display: none;
+  }
+  
+  .accesskey-hint {
+    display: none; /* Esconde dicas no mobile */
+  }
+}
+
+/* Modal de ajuda */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 5% auto;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  animation: modalFadeIn 0.3s ease;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  padding: 20px 30px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.modal-close:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.modal-body {
+  padding: 30px;
+}
+
+.shortcuts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.shortcut-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border-left: 4px solid #4caf50;
+}
+
+.shortcut-item kbd {
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 0.9rem;
+  min-width: 60px;
+  text-align: center;
+  display: inline-block;
+}
+
+.shortcut-item span {
+  flex: 1;
+  font-size: 1rem;
+  color: #333;
+}
+
+.modal-footer {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.btn-modal-close {
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-modal-close:hover {
+  background-color: #1b5e20;
+  transform: translateY(-2px);
+}
+
+/* Botão flutuante */
+.floating-help-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(135deg, #2e7d32, #1b5e20);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(46, 125, 50, 0.4);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.floating-help-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(46, 125, 50, 0.6);
+}
+
+.floating-help-btn .tooltip {
+  position: absolute;
+  right: 70px;
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.floating-help-btn:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Feedback visual */
+.accesskey-feedback {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  z-index: 10001;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.3s ease;
+  font-weight: 500;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translate(-50%, -20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* Destacar elemento focado por atalho */
+.atalho-focado {
+  outline: 3px solid #ff9800 !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.3) !important;
+  transition: outline 0.2s ease;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .modal-content {
+    margin: 10% auto;
+    width: 95%;
+  }
+  
+  .shortcuts-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .floating-help-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  .floating-help-btn .tooltip {
+    display: none;
+  }
+}
+
+    /* Skip link para leitores de tela */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: white;
+      padding: 8px 16px;
+      z-index: 10000;
+      text-decoration: none;
+    }
+    
+    .skip-link:focus {
+      top: 0;
+      outline: 3px solid #416939;
+    }
+    
+    /* Oculta visualmente mas mantém para leitores de tela */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    /* Emojis - ocultos para leitores de tela */
+    .emoji-icon {
+      font-size: 1.5em;
+      margin-right: 8px;
+      display: inline-block;
+      min-width: 24px;
+    }
+    
+    .emoji-icon[aria-hidden="true"] {
+      pointer-events: none;
+    }
+    
+    /* Melhorar contraste de foco */
+    :focus {
+      outline: 3px solid #2E7D32 !important;
+      outline-offset: 2px !important;
+    }
+    
+    /* Estilos para o botão APG */
+    .btn-apg {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #2E7D32;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    
+    .btn-apg:hover {
+      background: #1B5E20;
+      transform: translateY(-2px);
+    }
+    
+    .btn-apg i {
+      font-size: 1.2em;
+    }
+
+       /* Skip link para leitores de tela */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000;
+      color: white;
+      padding: 8px 16px;
+      z-index: 10000;
+      text-decoration: none;
+    }
+    
+    .skip-link:focus {
+      top: 0;
+      outline: 3px solid #416939;
+    }
+    
+    /* Oculta visualmente mas mantém para leitores de tela */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    
+    /* Emojis - ocultos para leitores de tela */
+    .emoji-icon {
+      font-size: 1.5em;
+      margin-right: 8px;
+      display: inline-block;
+      min-width: 24px;
+    }
+    
+    .emoji-icon[aria-hidden="true"] {
+      pointer-events: none;
+    }
+    
+    /* Melhorar contraste de foco */
+    :focus {
+      outline: 3px solid #2E7D32 !important;
+      outline-offset: 2px !important;
+    }

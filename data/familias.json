@@ -1,0 +1,1442 @@
+{
+  "acanthaceae": {
+    "id": "acanthaceae",
+    "name": "Acanthaceae",
+    "page": "../html/familia.html?id=acanthaceae",
+    "descricaoLonga": [
+      "A família Acanthaceae é composta principalmente por ervas, arbustos e trepadeiras, conhecidas por sua floração vistosa e ornamental.",
+      "Suas flores são tipicamente zigomorfas (com simetria bilateral), com corolas tubulares que atraem polinizadores como beija-flores.",
+      "Muitas espécies possuem cápsulas deiscentes que, ao abrirem, projetam as sementes a certa distância, um mecanismo de dispersão eficiente.",
+      "São plantas de grande importância ecológica e algumas, como o Justicia pectoralis (trevo-cravo), são utilizadas na medicina tradicional."
+    ],
+    "ficha": {
+      "Nome científico": "Acanthaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta pinada",
+      "Número da chave": "19",
+      "Sequência numérica": "1-2-9-10-11-12"
+    }
+  },
+  "amaranthaceae": {
+    "id": "amaranthaceae",
+    "name": "Amaranthaceae",
+    "page": "../html/familia.html?id=amaranthaceae",
+    "descricaoLonga": [
+      "A família Amaranthaceae inclui ervas e arbustos frequentemente adaptados a ambientes secos ou com solos salinos.",
+      "Suas flores são pequenas, geralmente reunidas em inflorescências densas como espigas ou panículas, e podem ser vistosas, como no popular amaranto-ornamental (Celosia).",
+      "A família tem importância econômica significativa, incluindo plantas alimentícias como o espinafre (Spinacia oleracea) e a quinua (Chenopodium quinoa), além de várias plantas daninhas e ornamentais.",
+      "Muitas espécies acumulam pigmentos betalaínas, que não são encontrados em outras famílias de plantas."
+    ],
+    "ficha": {
+      "Nome científico": "Amaranthaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "18",
+      "Sequência numérica": "1-2-9-10-11-12"
+    }
+  },
+  "anacardiaceae": {
+    "id": "anacardiaceae",
+    "name": "Anacardiaceae",
+    "page": "../html/familia.html?id=anacardiaceae",
+    "descricaoLonga": [
+      "Anacardiaceae é uma família de árvores e arbustos conhecida por incluir importantes espécies frutíferas e produtoras de resinas.",
+      "Entre seus membros mais famosos estão a mangueira (Mangifera indica), o cajueiro (Anacardium occidentale) e o pistache (Pistacia vera).",
+      "Muitas espécies possuem canais resiníferos que produzem substâncias químicas, algumas das quais podem causar dermatite de contato severa, como a da hera-venenosa (Toxicodendron radicans).",
+      "Os frutos são frequentemente drupas, e a família tem distribuição principalmente tropical e subtropical."
+    ],
+    "ficha": {
+      "Nome científico": "Anacardiaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta pinada ou simples",
+      "Número da chave": "20",
+      "Sequência numérica": "1-2-9-10-13-14"
+    }
+  },
+  "annonaceae": {
+    "id": "annonaceae",
+    "name": "Annonaceae",
+    "page": "../html/familia.html?id=annonaceae",
+    "descricaoLonga": [
+      "Annonaceae é uma grande família de árvores, arbustos e lianas, predominante nas florestas tropicais do mundo.",
+      "São conhecidas por seus frutos agregados, que em muitas espécies são comestíveis e saborosos, como a pinha (Annona squamosa) e a graviola (Annona muricata).",
+      "As flores são geralmente solitárias, com pétalas espessas e frequentemente aromáticas, e podem apresentar polinização por besouros.",
+      "Do ponto de vista evolutivo, é considerada uma família basal entre as angiospermas, mantendo algumas características primitivas."
+    ],
+    "ficha": {
+      "Nome científico": "Annonaceae",
+      "Clado": "Magnoliídeas",
+      "Ordem": "Magnoliales",
+      "Posição taxonômica APG IV": "Angiospermas basais",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "2",
+      "Sequência numérica": "1-2"
+    }
+  },
+  "apocynaceae": {
+    "id": "apocynaceae",
+    "name": "Apocynaceae",
+    "page": "../html/familia.html?id=apocynaceae",
+    "descricaoLonga": [
+      "A família Apocynaceae é diversa, incluindo ervas, arbustos, árvores e muitas trepadeiras, como as populares alamandas (Allamanda).",
+      "Uma característica marcante é a produção de látex, uma seiva leitosa que frequentemente contém alcaloides com propriedades medicinais ou tóxicas.",
+      "As flores são vistosas, com corolas gamopétalas (soldadas) que formam tubos, e são famosas por seus complexos mecanismos de polinização.",
+      "Inclui plantas de grande importância, desde ornamentais (Jasmim-estrela, Tabernaemontana) até fontes de medicamentos, como a Catharanthus roseus (usada no tratamento de certos tipos de câncer)."
+    ],
+    "ficha": {
+      "Nome científico": "Apocynaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Gentianales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "14",
+      "Sequência numérica": "1-2-3-4-5-6"
+    }
+  },
+  "arecaceae": {
+    "id": "arecaceae",
+    "name": "Arecaceae",
+    "page": "../html/familia.html?id=arecaceae",
+    "descricaoLonga": [
+      "Arecaceae, a família das palmeiras, é composta por plantas de porte arbóreo, arbustivo ou trepador, com um tronco único (estipe) ou múltiplos, geralmente não ramificado.",
+      "São símbolos das paisagens tropicais e têm enorme importância econômica e cultural, fornecendo alimentos como coco (Cocos nucifera) e açaí (Euterpe oleracea), fibras, óleos e materiais para construção.",
+      "As folhas são grandes, tipicamente pinadas ou palmadas, formando uma copa característica no topo do estipe.",
+      "Como monocotiledôneas, seu crescimento em espessura é diferente das árvores dicotiledôneas, ocorrendo por difusão de feixes vasculares."
+    ],
+    "ficha": {
+      "Nome científico": "Arecaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Arecales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta palmada ou pinada",
+      "Número da chave": "1",
+      "Sequência numérica": "1"
+    }
+  },
+  "asteraceae": {
+    "id": "asteraceae",
+    "name": "Asteraceae",
+    "page": "../html/familia.html?id=asteraceae",
+    "descricaoLonga": [
+      "Asteraceae é uma das maiores famílias de angiospermas, incluindo uma vasta diversidade de ervas, arbustos e algumas árvores.",
+      "A característica mais marcante é sua inflorescência altamente especializada, o capítulo, que se assemelha a uma única flor, mas é na verdade um conjunto de muitas flores pequenas (flósculos) agrupadas sobre um receptáculo.",
+      "Esta família inclui muitas plantas de importância econômica, como girassóis (Helianthus), alface (Lactuca sativa), margaridas e uma grande quantidade de espécies ornamentais e medicinais.",
+      "Têm uma notável capacidade de dispersão, muitas vezes através de frutos do tipo aquênio equipados com estruturas paposas (como o 'papo' do dente-de-leão)."
+    ],
+    "ficha": {
+      "Nome científico": "Asteraceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Asterales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples ou composta",
+      "Número da chave": "13",
+      "Sequência numérica": "1-2-3-4-7-8"
+    }
+  },
+  "bignoniaceae": {
+    "id": "bignoniaceae",
+    "name": "Bignoniaceae",
+    "page": "../html/familia.html?id=bignoniaceae",
+    "descricaoLonga": [
+      "Bignoniaceae é famosa por suas trepadeiras lenhosas, árvores e arbustos com flores grandes, vistosas e frequentemente em forma de trombeta.",
+      "São plantas tipicamente tropicais e subtropicais, muito utilizadas no paisagismo, como os ipês (Tabebuia), que encantam com sua florada espetacular, e as trombetas (Campsis).",
+      "Os frutos são geralmente cápsulas alongadas que, ao se abrirem, liberam sementes aladas, facilmente dispersas pelo vento.",
+      "Muitas espécies são polinizadas por animais de grande porte, como beija-flores e morcegos, atraídos pelas cores vibrantes e pelo néctar abundante."
+    ],
+    "ficha": {
+      "Nome científico": "Bignoniaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Composta pinada ou simples",
+      "Número da chave": "15",
+      "Sequência numérica": "1-2-3-4-5-6"
+    }
+  },
+  "bixaceae": {
+    "id": "bixaceae",
+    "name": "Bixaceae",
+    "page": "../html/familia.html?id=bixaceae",
+    "descricaoLonga": [
+      "Bixaceae é uma família pequena, mas economicamente importante, cujo representante mais conhecido é o urucum (Bixa orellana).",
+      "O urucum é um arbusto ou pequena árvore cultivada por suas sementes, das quais se extrai a bixina, um corante vermelho-alaranjado amplamente utilizado na indústria alimentícia (como colorau) e cosmética.",
+      "As plantas desta família geralmente têm folhas simples, alternas, e flores com estames numerosos (polistêmones).",
+      "Apesar de pequena, a família tem distribuição pantropical, ocorrendo nas Américas, África e Ásia."
+    ],
+    "ficha": {
+      "Nome científico": "Bixaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malvales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "21",
+      "Sequência numérica": "1-2-9-10-13-15"
+    }
+  },
+  "boraginaceae": {
+    "id": "boraginaceae",
+    "name": "Boraginaceae",
+    "page": "../html/familia.html?id=boraginaceae",
+    "descricaoLonga": [
+      "Boraginaceae é uma família que inclui principalmente ervas, mas também alguns arbustos e árvores, frequentemente reconhecidas por seus caules e folhas ásperos ao toque devido à presença de tricomas rígidos.",
+      "As inflorescências são tipicamente do tipo cimeira escorpióide, que se desenrola à medida que as flores vão abrindo.",
+      "As flores são frequentemente azuis ou roxas, com corola gamopétala em forma de funil ou tubo, como na não-me-esqueças (Myosotis).",
+      "A família inclui plantas ornamentais, algumas utilizadas na medicina tradicional e outras que são fontes de óleos importantes."
+    ],
+    "ficha": {
+      "Nome científico": "Boraginaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Boraginales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "16",
+      "Sequência numérica": "1-2-3-4-5-7"
+    }
+  },
+  "cactaceae": {
+    "id": "cactaceae",
+    "name": "Cactaceae",
+    "page": "../html/familia.html?id=cactaceae",
+    "descricaoLonga": [
+      "Cactaceae, a família dos cactos, é famosa por suas formas suculentas e adaptações extremas a ambientes áridos e semiáridos.",
+      "A característica mais marcante é a presença de aréolas, estruturas especializadas de onde surgem espinhos (folhas modificadas), flores e novos ramos.",
+      "Os caules são suculentos e fotossintetizantes, assumindo formas colunares, globosas ou achatadas, enquanto as folhas são tipicamente reduzidas ou ausentes para minimizar a perda de água.",
+      "Suas flores são geralmente grandes, vistosas e solitárias, muitas vezes abrindo à noite para serem polinizadas por morcegos ou mariposas."
+    ],
+    "ficha": {
+      "Nome científico": "Cactaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Homoclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Reduzida ou ausente",
+      "Número da chave": "17",
+      "Sequência numérica": "1-2-9-17"
+    }
+  },
+  "chrysobalanaceae": {
+    "id": "chrysobalanaceae",
+    "name": "Chrysobalanaceae",
+    "page": "../html/familia.html?id=chrysobalanaceae",
+    "descricaoLonga": [
+      "Chrysobalanaceae é uma família de árvores e arbustos tropicais, muitas vezes encontrada em florestas úmidas das regiões neotropicais e africanas.",
+      "As folhas são simples, com nervuras laterais proeminentes e frequentemente dispostas de maneira alternada ao longo dos ramos.",
+      "As flores são pequenas, geralmente brancas ou amareladas, agrupadas em inflorescências do tipo racemo ou panícula, e possuem um único carpelo que se desenvolve em um fruto do tipo drupa.",
+      "A espécie mais conhecida é a Chrysobalanus icaco, o icaco ou abajeru, cujos frutos são comestíveis e apreciados localmente."
+    ],
+    "ficha": {
+      "Nome científico": "Chrysobalanaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "22",
+      "Sequência numérica": "1-2-9-10-13-16"
+    }
+  },
+  "cleomaceae": {
+    "id": "cleomaceae",
+    "name": "Cleomaceae",
+    "page": "../html/familia.html?id=cleomaceae",
+    "descricaoLonga": [
+      "Cleomaceae é uma família de ervas e subarbustos, frequentemente reconhecida por suas folhas compostas palmadas e inflorescências vistosas.",
+      "As flores possuem longos estames que se projetam para fora da corola, conferindo um aspecto delicado e plumoso, que atrai diversos polinizadores.",
+      "Muitas espécies têm um aroma forte e característico, e algumas são cultivadas como ornamentais em jardins devido à sua floração prolongada e atraente.",
+      "A família está distribuída principalmente em regiões tropicais e subtropicais das Américas e da África, muitas vezes em habitats abertos ou perturbados."
+    ],
+    "ficha": {
+      "Nome científico": "Cleomaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Brassicales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta palmada",
+      "Número da chave": "23",
+      "Sequência numérica": "1-2-9-10-13-17"
+    }
+  },
+  "combretaceae": {
+    "id": "combretaceae",
+    "name": "Combretaceae",
+    "page": "../html/familia.html?id=combretaceae",
+    "descricaoLonga": [
+      "Combretaceae inclui árvores e arbustos, frequentemente encontrados em florestas tropicais, manguezais e savanas, com algumas espécies adaptadas a ambientes salinos.",
+      "As folhas são simples, geralmente opostas ou verticiladas, e muitas espécies apresentam glândulas salinas nas folhas para excretar o excesso de sal, como nos manguezais.",
+      "As flores são pequenas, reunidas em inflorescências alongadas, e os frutos são frequentemente alados ou espinhosos, adaptados para dispersão pelo vento ou pela água.",
+      "A família é ecologicamente importante, fornecendo madeira, taninos e sendo parte fundamental de ecossistemas costeiros. O gênero Terminalia inclui várias espécies madeireiras valiosas."
+    ],
+    "ficha": {
+      "Nome científico": "Combretaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Myrtales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "24",
+      "Sequência numérica": "1-2-9-18-19"
+    }
+  },
+  "convolvulaceae": {
+    "id": "convolvulaceae",
+    "name": "Convolvulaceae",
+    "page": "../html/familia.html?id=convolvulaceae",
+    "descricaoLonga": [
+      "Convolvulaceae, a família das glórias-da-manhã, é composta principalmente por trepadeiras volúveis, mas também inclui ervas e arbustos.",
+      "São conhecidas por suas flores em forma de trombeta ou funil, que geralmente abrem de manhã e fecham à tarde, e por sua habilidade de enrolar-se em suportes através do movimento de circumnutação.",
+      "Embora inclua belas plantas ornamentais como a Ipomoea purpurea, também abriga espécies problemáticas, como a corda-de-viola (Ipomoea spp.), uma daninha agressiva, e a batata-doce (Ipomoea batatas), de grande importância alimentar.",
+      "Muitas espécies contêm alcaloides e são utilizadas na medicina tradicional, enquanto outras possuem propriedades psicotrópicas."
+    ],
+    "ficha": {
+      "Nome científico": "Convolvulaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Solanales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "25",
+      "Sequência numérica": "1-2-3-4-5-8"
+    }
+  },
+  "costaceae": {
+    "id": "costaceae",
+    "name": "Costaceae",
+    "page": "../html/familia.html?id=costaceae",
+    "descricaoLonga": [
+      "Costaceae é uma família de ervas rizomatosas, frequentemente confundida com Zingiberaceae (gengibres), da qual se distingue principalmente por não apresentar lígula na bainha foliar e por suas flores simétricas (actinomorfas).",
+      "Possuem caules espiralados característicos e folhas dispostas em espiral, que conferem um aspecto ornamental muito apreciado em jardins tropicais.",
+      "As inflorescências são terminais, com brácteas vistosas que abrigam as flores tubulares, geralmente amarelas, laranjas ou vermelhas, polinizadas por beija-flores e insetos.",
+      "São plantas principalmente da região neotropical, com algumas espécies na África e Ásia, e são cultivadas tanto pela folhagem atraente quanto pelas flores exóticas."
+    ],
+    "ficha": {
+      "Nome científico": "Costaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Zingiberales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "3",
+      "Sequência numérica": "1-3"
+    }
+  },
+  "cucurbitaceae": {
+    "id": "cucurbitaceae",
+    "name": "Cucurbitaceae",
+    "page": "../html/familia.html?id=cucurbitaceae",
+    "descricaoLonga": [
+      "Cucurbitaceae, a família das abóboras, melancias e pepinos, é composta por plantas herbáceas, geralmente trepadeiras ou rasteiras com gavinhas espirais.",
+      "São amplamente cultivadas em todo o mundo por seus frutos comestíveis, que são classificados como pepônios – um tipo de baga com casca rígida.",
+      "As flores são unissexuais, com plantas monoicas (flores masculinas e femininas na mesma planta) ou dioicas, e são frequentemente polinizadas por insetos.",
+      "Além de seu enorme valor alimentício, várias espécies possuem propriedades medicinais importantes, e algumas, como a cabaça (Lagenaria siceraria), são utilizadas para a confecção de utensílios e instrumentos musicais."
+    ],
+    "ficha": {
+      "Nome científico": "Cucurbitaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Cucurbitales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone ou oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "26",
+      "Sequência numérica": "1-2-3-4-7-9"
+    }
+  },
+  "cyperaceae": {
+    "id": "cyperaceae",
+    "name": "Cyperaceae",
+    "page": "../html/familia.html?id=cyperaceae",
+    "descricaoLonga": [
+      "Cyperaceae, a família das ciperáceas, inclui plantas herbáceas parecidas com gramíneas, frequentemente encontradas em áreas úmidas, margens de rios e brejos.",
+      "O gênero mais conhecido é Cyperus, que inclui a tiririca (Cyperus rotundus), uma das piores plantas daninhas do mundo, e o papiro (Cyperus papyrus), usado no antigo Egito para fazer papel.",
+      "Os caules são geralmente sólidos e triangulares em corte transversal, e as flores são diminutas, agrupadas em espiguetas que formam inflorescências complexas.",
+      "A família desempenha um papel crucial na estabilização de solos em ambientes aquáticos e são importantes na filtração de água e como habitat para a fauna."
+    ],
+    "ficha": {
+      "Nome científico": "Cyperaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Poales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples",
+      "Número da chave": "4",
+      "Sequência numérica": "1-4"
+    }
+  },
+  "dilleniaceae": {
+    "id": "dilleniaceae",
+    "name": "Dilleniaceae",
+    "page": "../html/familia.html?id=dilleniaceae",
+    "descricaoLonga": [
+      "Dilleniaceae é uma família de árvores, arbustos e algumas trepadeiras, encontradas principalmente nas florestas tropicais da Ásia, Austrália e Américas.",
+      "São conhecidas por suas folhas simples, com nervuras laterais muito proeminentes e paralelas, e por suas grandes flores vistosas, geralmente amarelas ou brancas, com numerosos estames.",
+      "Os frutos são frequentemente cápsulas ou bagas, e em algumas espécies os cálices se tornam carnudos e envolvem o fruto, como no gênero Dillenia.",
+      "Muitas espécies são cultivadas como ornamentais devido à sua folhagem brilhante e floração espetacular, e algumas fornecem madeira de boa qualidade."
+    ],
+    "ficha": {
+      "Nome científico": "Dilleniaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Dilleniales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "27",
+      "Sequência numérica": "1-2-9-10-13-18"
+    }
+  },
+  "erythroxylaceae": {
+    "id": "erythroxylaceae",
+    "name": "Erythroxylaceae",
+    "page": "../html/familia.html?id=erythroxylaceae",
+    "descricaoLonga": [
+      "Erythroxylaceae é uma família de arbustos e pequenas árvores, conhecida mundialmente por incluir a planta da coca (Erythroxylum coca).",
+      "As folhas são simples, alternas e frequentemente apresentam duas linhas paralelas (estrias) ao longo da nervura central na face inferior, uma característica distintiva do gênero Erythroxylum.",
+      "As flores são pequenas, geralmente brancas ou amareladas, agrupadas em cachos axilares, e produzem drupas (frutos carnudos com caroço) vermelhas quando maduras.",
+      "Embora associada a um alcaloide controverso (a cocaína), a família tem espécies com usos tradicionais em suas regiões nativas (Américas tropicais, África, Madagascar) e é objeto de estudos botânicos sobre a diversificação química e evolutiva."
+    ],
+    "ficha": {
+      "Nome científico": "Erythroxylaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "28",
+      "Sequência numérica": "1-2-9-10-13-19"
+    }
+  },
+  "euphorbiaceae": {
+    "id": "euphorbiaceae",
+    "name": "Euphorbiaceae",
+    "page": "../html/familia.html?id=euphorbiaceae",
+    "descricaoLonga": [
+      "Euphorbiaceae é uma das famílias mais diversas de plantas com flores, incluindo desde ervas anuais até grandes árvores, com distribuição principalmente tropical.",
+      "Uma característica universal é a presença de látex, uma seiva leitosa que frequentemente contém compostos tóxicos ou medicinais, como na seringueira (Hevea brasiliensis), fonte da borracha natural.",
+      "A estrutura floral é altamente especializada: o que parece uma única flor (como no 'bico-de-papagaio', Euphorbia pulcherrima) é na verdade uma inflorescência chamada ciátio, que agrupa várias flores minúsculas.",
+      "A família tem enorme importância econômica, fornecendo alimentos (mandioca - Manihot esculenta), óleos (mamona - Ricinus communis), madeira e inúmeras plantas ornamentais."
+    ],
+    "ficha": {
+      "Nome científico": "Euphorbiaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples ou composta",
+      "Número da chave": "29",
+      "Sequência numérica": "1-2-9-20"
+    }
+  },
+  "fabaceae": {
+    "id": "fabaceae",
+    "name": "Fabaceae",
+    "page": "../html/familia.html?id=fabaceae",
+    "descricaoLonga": [
+      "Fabaceae (ou Leguminosae) é uma das maiores famílias de angiospermas, crucial para a agricultura mundial e para a saúde dos ecossistemas.",
+      "São reconhecidas por seus frutos do tipo legume (vagem) e pela capacidade única, através de bactérias do gênero Rhizobium, de fixar nitrogênio atmosférico no solo, enriquecendo-o naturalmente.",
+      "A diversidade é imensa: desde o feijão (Phaseolus vulgaris) e a soja (Glycine max) até árvores majestosas como o pau-brasil (Paubrasilia echinata) e o angico.",
+      "As flores têm formato característico, frequentemente papilionáceas (com pétalas em forma de borboleta), e são polinizadas por uma variedade de insetos, aves e morcegos."
+    ],
+    "ficha": {
+      "Nome científico": "Fabaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Fabales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta pinada ou trifoliolada",
+      "Número da chave": "30",
+      "Sequência numérica": "1-2-9-10-14-20"
+    }
+  },
+  "heliconiaceae": {
+    "id": "heliconiaceae",
+    "name": "Heliconiaceae",
+    "page": "../html/familia.html?id=heliconiaceae",
+    "descricaoLonga": [
+      "Heliconiaceae é uma família de plantas herbáceas de grande porte, famosas por suas inflorescências espetaculares e brácteas coloridas que imitam flores.",
+      "Popularmente conhecidas como bananeiras-do-mato ou falsas-aves-do-paraíso, são elementos marcantes da paisagem tropical, especialmente nas Américas.",
+      "As brácteas vivamente coloridas (vermelhas, laranjas, amarelas) protegem as flores verdadeiras e servem como reservatório de água e néctar, atraindo beija-flores, que são seus principais polinizadores.",
+      "As folhas são grandes, semelhantes às das bananeiras, e a planta cresce a partir de rizomas subterrâneos, formando touceiras densas."
+    ],
+    "ficha": {
+      "Nome científico": "Heliconiaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Zingiberales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "5",
+      "Sequência numérica": "1-5"
+    }
+  },
+  "hypericaceae": {
+    "id": "hypericaceae",
+    "name": "Hypericaceae",
+    "page": "../html/familia.html?id=hypericaceae",
+    "descricaoLonga": [
+      "Hypericaceae é uma família de ervas, arbustos e pequenas árvores, conhecida principalmente pelo gênero Hypericum, o popular hipericão ou erva-de-são-joão.",
+      "As folhas são opostas, simples e geralmente pontuadas com glândulas translúcidas que contêm óleos essenciais, visíveis quando seguras contra a luz.",
+      "As flores são amarelas e vistosas, com numerosos estames que formam um tufo característico no centro. Os frutos são cápsulas que, ao amadurecer, liberam inúmeras sementes pequenas.",
+      "A Hypericum perforatum é amplamente estudada e utilizada na fitoterapia por suas propriedades antidepressivas, sendo também considerada uma planta invasora em várias regiões."
+    ],
+    "ficha": {
+      "Nome científico": "Hypericaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "31",
+      "Sequência numérica": "1-2-9-10-13-21"
+    }
+  },
+  "lacistemataceae": {
+    "id": "lacistemataceae",
+    "name": "Lacistemataceae",
+    "page": "../html/familia.html?id=lacistemataceae",
+    "descricaoLonga": [
+      "Lacistemataceae é uma pequena família de arbustos e árvores neotropicais, frequentemente encontrada no sub-bosque de florestas úmidas.",
+      "As plantas são dióicas, ou seja, possuem indivíduos com flores apenas masculinas e outros com flores apenas femininas.",
+      "As flores são pequenas, inconspícuas, agrupadas em inflorescências alongadas (amentilhos ou espigas), e carecem de pétalas vistosas, sendo polinizadas principalmente pelo vento.",
+      "Embora pouco conhecida, é uma família botanicamente interessante por apresentar uma mistura de características consideradas primitivas e avançadas, ocupando uma posição evolutiva distinta."
+    ],
+    "ficha": {
+      "Nome científico": "Lacistemataceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples",
+      "Número da chave": "32",
+      "Sequência numérica": "1-2-9-21"
+    }
+  },
+  "lamiaceae": {
+    "id": "lamiaceae",
+    "name": "Lamiaiaceae",
+    "page": "../html/familia.html?id=lamiaceae",
+    "descricaoLonga": [
+      "Lamiaceae, anteriormente conhecida como Labiatae, é a família das mentas, alecrins, manjericões e sálvias, famosa por suas propriedades aromáticas, medicinais e culinárias.",
+      "O caule é tipicamente quadrangular, e as folhas são opostas, simples e ricas em glândulas de óleos essenciais que lhes conferem fragrâncias marcantes.",
+      "As flores são bilabiadas (com dois lábios) e se dispõem em verticilos ao longo do caule, formando inflorescências características. A polinização é feita principalmente por abelhas.",
+      "É uma família de enorme importância para humanos, fornecendo uma vasta gama de temperos, chás medicinais, óleos essenciais e plantas ornamentais de jardim."
+    ],
+    "ficha": {
+      "Nome científico": "Lamiaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone ou oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "33",
+      "Sequência numérica": "1-2-3-4-5-9"
+    }
+  },
+  "lauraceae": {
+    "id": "lauraceae",
+    "name": "Lauraceae",
+    "page": "../html/familia.html?id=lauraceae",
+    "descricaoLonga": [
+      "Lauraceae é uma família de árvores e arbustos aromáticos, de grande importância ecológica e econômica nas florestas tropicais e subtropicais do mundo.",
+      "Entre seus membros mais famosos estão o abacateiro (Persea americana), a canela (Cinnamomum verum) e o louro (Laurus nobilis).",
+      "As folhas são simples, alternas e, quando esmagadas, exalam um aroma característico devido aos óleos essenciais presentes. As flores são pequenas, geralmente amarelo-esverdeadas.",
+      "A madeira de algumas espécies, como o pau-rosa (Aniba rosaeodora), é extremamente valiosa para a perfumaria, enquanto outras, como a imbuia (Ocotea porosa), são importantes para a marcenaria."
+    ],
+    "ficha": {
+      "Nome científico": "Lauraceae",
+      "Clado": "Magnoliídeas",
+      "Ordem": "Laurales",
+      "Posição taxonômica APG IV": "Angiospermas basais",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "6",
+      "Sequência numérica": "1-6"
+    }
+  },
+  "linderniaceae": {
+    "id": "linderniaceae",
+    "name": "Linderniaceae",
+    "page": "../html/familia.html?id=linderniaceae",
+    "descricaoLonga": [
+      "Linderniaceae é uma família recentemente segregada de Scrophulariaceae, composta por ervas geralmente de pequeno porte, encontradas em habitats úmidos ou semi-aquáticos.",
+      "As plantas são frequentemente anuais, com flores delicadas e bilabiadas que podem ser brancas, azuis ou roxas, semelhantes às de algumas Plantaginaceae.",
+      "Muitas espécies crescem em locais temporariamente alagados, como margens de riachos e brejos, demonstrando adaptação a solos encharcados.",
+      "Embora sejam plantas discretas, têm importância ecológica em seus habitats nativos e são de interesse botânico para estudos de sistemática e evolução de plantas com flores."
+    ],
+    "ficha": {
+      "Nome científico": "Linderniaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "34",
+      "Sequência numérica": "1-2-3-4-5-10"
+    }
+  },
+  "lythraceae": {
+    "id": "lythraceae",
+    "name": "Lythraceae",
+    "page": "../html/familia.html?id=lythraceae",
+    "descricaoLonga": [
+      "Lythraceae é uma família que inclui desde pequenas ervas aquáticas até árvores de médio porte, conhecida por suas flores com cálice tubulado e pétalas enrugadas.",
+      "O membro mais emblemático é a romãzeira (Punica granatum), embora o gênero Punica seja agora colocado em sua própria família (Punicaceae) por alguns sistemas.",
+      "Outro representante importante é a resedá (Lagerstroemia indica), uma árvore ornamental muito popular por sua longa e vistosa floração rosa ou lilás no verão.",
+      "Muitas espécies possuem propriedades medicinais e corantes, e são componentes comuns de zonas úmidas e áreas ripárias (margens de rios)."
+    ],
+    "ficha": {
+      "Nome científico": "Lythraceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Myrtales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero ou ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "35",
+      "Sequência numérica": "1-2-9-10-14-22"
+    }
+  },
+  "malpighiaceae": {
+    "id": "malpighiaceae",
+    "name": "Malpighiaceae",
+    "page": "../html/familia.html?id=malpighiaceae",
+    "descricaoLonga": [
+      "Malpighiaceae é uma família principalmente tropical de trepadeiras, arbustos e árvores, conhecida por suas flores com pétalas frequentemente amarelas e unguiculadas (com uma garra na base).",
+      "Uma característica marcante é a presença de glândulas de óleo, chamadas elaióforos, na base das pétalas, que recompensam abelhas específicas (principalmente do gênero Centris) que coletam esse óleo para alimentar suas larvas.",
+      "As folhas são geralmente opostas e podem apresentar glândulas no pecíolo ou na lâmina foliar. Os frutos são do tipo esquizocarpo, frequentemente alados ou espinhosos.",
+      "Inclui plantas ornamentais como o murici (Byrsonima spp.) e o cipó-de-são-joão (Stigmaphyllon spp.)."
+    ],
+    "ficha": {
+      "Nome científico": "Malpighiaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "36",
+      "Sequência numérica": "1-2-9-10-13-23"
+    }
+  },
+  "malvaceae": {
+    "id": "malvaceae",
+    "name": "Malvaceae",
+    "page": "../html/familia.html?id=malvaceae",
+    "descricaoLonga": [
+      "Malvaceae, no sistema APG IV ampliado, é uma grande e diversa família que inclui plantas economicamente muito importantes, como o algodoeiro (Gossypium spp.), o cacau (Theobroma cacao) e o okra (Abelmoschus esculentus).",
+      "As flores são frequentemente vistosas, com estames numerosos unidos em um tubo (coluna estaminal) que envolve o pistilo. Muitas têm pétalas com uma mancha escura na base.",
+      "As folhas são geralmente palmadas ou lobadas, e a superfície da planta é frequentemente coberta por tricomas estrelados ou escamosos.",
+      "A família fornece fibras têxteis (algodão), alimentos, madeira e uma grande variedade de plantas ornamentais, como os hibiscos (Hibiscus rosa-sinensis)."
+    ],
+    "ficha": {
+      "Nome científico": "Malvaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malvales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples ou palmada",
+      "Número da chave": "37",
+      "Sequência numérica": "1-2-9-10-13-24"
+    }
+  },
+  "melastomataceae": {
+    "id": "melastomataceae",
+    "name": "Melastomataceae",
+    "page": "../html/familia.html?id=melastomataceae",
+    "descricaoLonga": [
+      "Melastomataceae é uma grande família de arbustos, ervas e algumas árvores, dominante no sub-bosque de muitas florestas tropicais, especialmente na América do Sul.",
+      "As folhas são opostas, com nervuras longitudinais bem marcadas que partem da base (nervuras acródromas) e se curvam para cima, uma característica diagnóstica da família.",
+      "As flores são geralmente vistosas, com cores vibrantes como rosa, roxo ou magenta, e possuem estames com conectivos frequentemente ornamentados e de cores contrastantes.",
+      "Os frutos são bagas ou cápsulas que abrem no ápice, liberando numerosas sementes minúsculas, e são alimento importante para a fauna. A família inclui muitos gêneros ornamentais, como a quaresmeira (Tibouchina spp.)."
+    ],
+    "ficha": {
+      "Nome científico": "Melastomataceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Myrtales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "38",
+      "Sequência numérica": "1-2-9-18-22"
+    }
+  },
+  "meliaceae": {
+    "id": "meliaceae",
+    "name": "Meliaceae",
+    "page": "../html/familia.html?id=meliaceae",
+    "descricaoLonga": [
+      "Meliaceae é uma família de árvores, algumas de grande porte, conhecidas por sua madeira de alta qualidade e por possuírem compostos com propriedades inseticidas.",
+      "As folhas são geralmente compostas pinadas, dispostas de forma alternada. Muitas espécies, como o nim (Azadirachta indica), são famosas por seus metabólitos secundários (ex.: azadiractina) que atuam como repelentes ou inibidores de crescimento de insetos.",
+      "As flores são pequenas, geralmente brancas ou creme, agrupadas em inflorescências. Os frutos são cápsulas, bagas ou drupas, e em algumas espécies, como o mogno (Swietenia macrophylla), as sementes são aladas.",
+      "A família é de grande importância econômica para a indústria madeireira (mogno, cedro) e para o controle biológico de pragas na agricultura."
+    ],
+    "ficha": {
+      "Nome científico": "Meliaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta pinada",
+      "Número da chave": "39",
+      "Sequência numérica": "1-2-9-10-14-23"
+    }
+  },
+  "moraceae": {
+    "id": "moraceae",
+    "name": "Moraceae",
+    "page": "../html/familia.html?id=moraceae",
+    "descricaoLonga": [
+      "Moraceae é uma família de árvores, arbustos e algumas trepadeiras, frequentemente com látex leitoso. Inclui muitas espécies de grande importância para os seres humanos e para a fauna.",
+      "Os membros mais famosos são a figueira (Ficus spp.), com suas inflorescências únicas (sicônio) e relação mutualista com vespas específicas, e a amoreira (Morus spp.), cujas folhas alimentam o bicho-da-seda.",
+      "As flores são pequenas e inconspícuas, agrupadas em inflorescências densas. Os frutos são frequentemente múltiplos, formando estruturas compostas como o fruto da jaca (Artocarpus heterophyllus) ou do figo.",
+      "A família fornece madeira, alimentos (figo, jaca, pão-de-queijo), látex (para borracha) e é ecologicamente vital, pois os frutos de muitas espécies são consumidos por uma grande variedade de animais."
+    ],
+    "ficha": {
+      "Nome científico": "Moraceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Rosales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero ou ínfero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples",
+      "Número da chave": "40",
+      "Sequência numérica": "1-2-9-22"
+    }
+  },
+  "myristicaceae": {
+    "id": "myristicaceae",
+    "name": "Myristicaceae",
+    "page": "../html/familia.html?id=myristicaceae",
+    "descricaoLonga": [
+      "Myristicaceae é uma família de árvores aromáticas, principalmente tropicais, cujo representante mais conhecido é a árvore da noz-moscada (Myristica fragrans).",
+      "As plantas são dióicas, ou seja, existem árvores masculinas e femininas separadas. As folhas são simples, alternas e, quando esmagadas, exalam um aroma picante.",
+      "Os frutos são carnosos e deiscentes, abrindo-se quando maduros para revelar uma semente envolta por um arilo vermelho vivo e reticulado. Na noz-moscada, o arilo é a macis e a semente é a noz-moscada propriamente dita, ambas utilizadas como especiarias.",
+      "Muitas espécies produzem óleos aromáticos e são exploradas localmente. A família é considerada um grupo basal entre as angiospermas."
+    ],
+    "ficha": {
+      "Nome científico": "Myristicaceae",
+      "Clado": "Magnoliídeas",
+      "Ordem": "Magnoliales",
+      "Posição taxonômica APG IV": "Angiospermas basais",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "7",
+      "Sequência numérica": "1-7"
+    }
+  },
+  "myrtaceae": {
+    "id": "myrtaceae",
+    "name": "Myrtaceae",
+    "page": "../html/familia.html?id=myrtaceae",
+    "descricaoLonga": [
+      "Myrtaceae é uma grande família de árvores e arbustos, notável por sua concentração na região da Austrália e por incluir uma enorme diversidade de espécies com folhas aromáticas devido aos óleos essenciais presentes em glândulas.",
+      "As folhas são opostas, simples e inteiras, com pontuações translúcidas quando vistas contra a luz. As flores são vistosas, com numerosos estames longos e coloridos que são a parte mais chamativa, dando um aspecto de pompom.",
+      "Os frutos são muito variados: bagas (como em goiaba, jabuticaba), cápsulas (como no eucalipto) ou drupas. Muitos são comestíveis e importantes comercialmente.",
+      "A família é extremamente importante, incluindo os eucaliptos (Eucalyptus), fonte de madeira e celulose; frutas como goiaba (Psidium guajava) e pitanga (Eugenia uniflora); e especiarias como a pimenta-da-jamaica (Pimenta dioica)."
+    ],
+    "ficha": {
+      "Nome científico": "Myrtaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Myrtales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "41",
+      "Sequência numérica": "1-2-9-18-23"
+    }
+  },
+  "nyctaginaceae": {
+    "id": "nyctaginaceae",
+    "name": "Nyctaginaceae",
+    "page": "../html/familia.html?id=nyctaginaceae",
+    "descricaoLonga": [
+      "Nyctaginaceae é uma família de ervas, arbustos e árvores, conhecida por suas flores envolvidas por brácteas coloridas e vistosas que frequentemente são confundidas com pétalas.",
+      "A estrutura mais chamativa não é a flor em si, que é pequena e tubular, mas um conjunto de brácteas modificadas que a envolve. Na planta conhecida como 'maravilha' ou 'boa-noite' (Mirabilis jalapa), essas brácteas formam um cálice colorido.",
+      "Outro exemplo famoso é o gênero Bougainvillea, cujas 'flores' rosa, vermelhas ou laranja são na realidade três brácteas papiráceas que envolvem as verdadeiras flores pequenas e brancas.",
+      "As folhas são simples, opostas ou alternadas. Muitas espécies são cultivadas como ornamentais em jardins e para formar cercas vivas."
+    ],
+    "ficha": {
+      "Nome científico": "Nyctaginaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "42",
+      "Sequência numérica": "1-2-9-23"
+    }
+  },
+  "oleaceae": {
+    "id": "oleaceae",
+    "name": "Oleaceae",
+    "page": "../html/familia.html?id=oleaceae",
+    "descricaoLonga": [
+      "Oleaceae é uma família de árvores e arbustos, muitas delas de grande importância para a horticultura, a produção de madeira e a cultura mediterrânea.",
+      "As folhas são geralmente opostas, simples ou compostas (penadas). As flores são frequentemente pequenas, brancas ou amareladas, mas podem ser muito perfumadas, como no jasmim (Jasminum spp.) e no lilás (Syringa vulgaris).",
+      "Os frutos são variados: bagas (como a azeitona), drupas ou sâmaras (frutos alados). A azeitona (Olea europaea) é um dos cultivos mais antigos da humanidade, fonte do azeite de oliva.",
+      "A família também inclui o freixo (Fraxinus spp.), madeira valiosa, e o ligustro (Ligustrum spp.), muito usado para topiaria e cercas vivas."
+    ],
+    "ficha": {
+      "Nome científico": "Oleaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples ou composta",
+      "Número da chave": "43",
+      "Sequência numérica": "1-2-3-4-5-11"
+    }
+  },
+  "orchidaceae": {
+    "id": "orchidaceae",
+    "name": "Orchidaceae",
+    "page": "../html/familia.html?id=orchidaceae",
+    "descricaoLonga": [
+      "Orchidaceae é uma das maiores famílias de plantas com flores, com uma diversidade imensa de formas, cores e estratégias de sobrevivência, especialmente adaptadas à polinização por insetos, aves e até morcegos.",
+      "As orquídeas são famosas por suas flores complexas e simétricas, com uma pétala modificada chamada labelo, que serve como plataforma de pouso para polinizadores. Muitas têm relações específicas com fungos (micorrizas) para germinação e crescimento.",
+      "São plantas principalmente epífitas (crescem sobre outras plantas sem parasitá-las), mas também há espécies terrestres e até subterrâneas. As sementes são minúsculas, em forma de pó, e carecem de reservas nutritivas.",
+      "A família tem enorme importância ornamental, com milhares de híbridos cultivados, e algumas espécies, como a baunilha (Vanilla planifolia), têm valor comercial como especiaria."
+    ],
+    "ficha": {
+      "Nome científico": "Orchidaceae",
+      "Clado": "Monocotiledôneas",
+      "Ordem": "Asparagales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "8",
+      "Sequência numérica": "1-8"
+    }
+  },
+  "oxalidaceae": {
+    "id": "oxalidaceae",
+    "name": "Oxalidaceae",
+    "page": "../html/familia.html?id=oxalidaceae",
+    "descricaoLonga": [
+      "Oxalidaceae é uma família de ervas, arbustos e algumas árvores, conhecida principalmente pelo gênero Oxalis, que inclui o popular trevo-azedo ou trevo-do-brejo.",
+      "As folhas são compostas, frequentemente trifolioladas, e apresentam um movimento de nictinastia, fechando-se à noite ou quando tocadas. Muitas espécies armazenam ácido oxálico, que confere um sabor azedo característico.",
+      "As flores são regulares, com cinco pétalas geralmente brancas, rosas, amarelas ou roxas. O fruto é uma cápsula que, ao amadurecer, explode projetando as sementes a certa distância.",
+      "Algumas espécies são cultivadas como ornamentais, enquanto outras, como a carambola (Averrhoa carambola), produzem frutos comestíveis."
+    ],
+    "ficha": {
+      "Nome científico": "Oxalidaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Oxalidales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Composta pinada",
+      "Número da chave": "44",
+      "Sequência numérica": "1-2-9-10-11-24"
+    }
+  },
+  "passifloraceae": {
+    "id": "passifloraceae",
+    "name": "Passifloraceae",
+    "page": "../html/familia.html?id=passifloraceae",
+    "descricaoLonga": [
+      "Passifloraceae é famosa por suas trepadeiras, especialmente o gênero Passiflora, que inclui o maracujá e uma grande diversidade de plantas ornamentais conhecidas como flor-da-paixão.",
+      "As flores são complexas e vistosas, com uma estrutura única chamada corona, formada por filamentos coloridos entre as pétalas e os estames, que atrai polinizadores. Simbolicamente, partes da flor foram associadas à Paixão de Cristo.",
+      "As folhas são geralmente lobadas ou palmadas, e muitas espécies possuem gavinhas para se fixar. Os frutos são bagas, sendo o maracujá (Passiflora edulis) o mais conhecido.",
+      "A família inclui plantas com propriedades medicinais calmantes (maracujá) e outras com alcaloides psicoativos."
+    ],
+    "ficha": {
+      "Nome científico": "Passifloraceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples ou palmada",
+      "Número da chave": "45",
+      "Sequência numérica": "1-2-9-10-13-25"
+    }
+  },
+  "pedaliaceae": {
+    "id": "pedaliaceae",
+    "name": "Pedaliaceae",
+    "page": "../html/familia.html?id=pedaliaceae",
+    "descricaoLonga": [
+      "Pedaliaceae é uma família de ervas e alguns arbustos, frequentemente encontrada em áreas secas ou costeiras da África e Ásia, com algumas espécies amplamente cultivadas.",
+      "A característica mais marcante é a produção de frutos e sementes com estruturas mucilaginosas ou ganchos que facilitam a dispersão por animais ou pela água.",
+      "O membro economicamente mais importante é o gergelim (Sesamum indicum), cultivado há milênios por suas sementes oleaginosas ricas em nutrientes, usadas na culinária e na produção de óleo.",
+      "As folhas são geralmente opostas, simples ou lobadas. As flores são tubulares e bilabiadas, semelhantes às de algumas Scrophulariaceae."
+    ],
+    "ficha": {
+      "Nome científico": "Pedaliaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "46",
+      "Sequência numérica": "1-2-3-4-5-12"
+    }
+  },
+  "phytolaccaceae": {
+    "id": "phytolaccaceae",
+    "name": "Phytolaccaceae",
+    "page": "../html/familia.html?id=phytolaccaceae",
+    "descricaoLonga": [
+      "Phytolaccaceae inclui ervas, arbustos e árvores, muitas com caules suculentos e coloridos. Algumas espécies contêm saponinas e outros compostos que podem ser tóxicos.",
+      "As inflorescências são geralmente longas e pendentes, com pequenas flores brancas, rosadas ou verdes que produzem bagas carnudas, frequentemente pretas ou roxas quando maduras.",
+      "O gênero Phytolacca é o mais conhecido, incluindo a popularmente chamada 'erva-de-pinto' (Phytolacca americana), uma planta daninha tóxica mas com usos medicinais tradicionais e como corante.",
+      "São plantas de crescimento rápido, comum em áreas perturbadas, e algumas são cultivadas como ornamentais por sua folhagem e frutificação decorativa."
+    ],
+    "ficha": {
+      "Nome científico": "Phytolaccaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "47",
+      "Sequência numérica": "1-2-9-24"
+    }
+  },
+  "piperaceae": {
+    "id": "piperaceae",
+    "name": "Piperaceae",
+    "page": "../html/familia.html?id=piperaceae",
+    "descricaoLonga": [
+      "Piperaceae é uma família de ervas, arbustos e trepadeiras, com grande importância como produtora de especiarias e plantas ornamentais de folhagem.",
+      "O gênero Piper é o mais significativo, incluindo a pimenta-do-reino (Piper nigrum), uma das especiarias mais antigas e valiosas do mundo, e a pariparoba (Piper gaudichaudianum), usada na medicina tradicional.",
+      "As plantas são aromáticas, com folhas simples, alternas e frequentemente cordiformes (em forma de coração). As flores são minúsculas, densamente agrupadas em espigas cilíndricas.",
+      "Muitas espécies são cultivadas como plantas de interior pela beleza de suas folhas, como as do gênero Peperomia. A família é considerada um grupo basal entre as angiospermas."
+    ],
+    "ficha": {
+      "Nome científico": "Piperaceae",
+      "Clado": "Magnoliídeas",
+      "Ordem": "Piperales",
+      "Posição taxonômica APG IV": "Angiospermas basais",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "9",
+      "Sequência numérica": "1-9"
+    }
+  },
+  "plantaginaceae": {
+    "id": "plantaginaceae",
+    "name": "Plantaginaceae",
+    "page": "../html/familia.html?id=plantaginaceae",
+    "descricaoLonga": [
+      "Plantaginaceae, no sistema APG ampliado, é uma família diversificada que agrupou muitos gêneros antes colocados em Scrophulariaceae. Inclui desde pequenas ervas até arbustos.",
+      "O gênero Plantago, que dá nome à família, inclui a tanchagem (Plantago major), conhecida por suas propriedades medicinais. As folhas têm nervuras paralelas bem marcadas.",
+      "Outros gêneros importantes são Antirrhinum (boca-de-leão, ornamental), Digitalis (dedaleira, fonte da digitálica, medicamento cardíaco) e Veronica (popular em jardins).",
+      "As flores têm formas variadas, muitas bilabiadas, adaptadas à polinização por insetos. A família tem grande importância medicinal, ornamental e ecológica."
+    ],
+    "ficha": {
+      "Nome científico": "Plantaginaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "48",
+      "Sequência numérica": "1-2-3-4-5-13"
+    }
+  },
+  "poaceae": {
+    "id": "poaceae",
+    "name": "Poaceae",
+    "page": "../html/familia.html?id=poaceae",
+    "descricaoLonga": [
+      "Poaceae (Gramineae) é uma das famílias de plantas mais importantes para a humanidade e para os ecossistemas terrestres, sendo a base da alimentação mundial.",
+      "Inclui todos os cereais (trigo, arroz, milho, cevada, aveia), cana-de-açúcar, bambu e as gramíneas que formam pastagens e savanas. A estrutura da planta é adaptada à herbivoria e ao crescimento a partir da base.",
+      "As flores são minúsculas e agrupadas em espiguetas, que por sua vez formam inflorescências como espigas, panículas ou racimos. O fruto é um cariopse, onde a senda está fundida ao pericarpo.",
+      "Esta família sustenta diretamente a civilização humana através da agricultura, forrageia para o gado, estabiliza solos e forma habitats essenciais em todos os continentes, exceto na Antártida."
+    ],
+    "ficha": {
+      "Nome científico": "Poaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Poales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples",
+      "Número da chave": "10",
+      "Sequência numérica": "1-10"
+    }
+  },
+  "polygonaceae": {
+    "id": "polygonaceae",
+    "name": "Polygonaceae",
+    "page": "../html/familia.html?id=polygonaceae",
+    "descricaoLonga": [
+      "Polygonaceae é uma família de ervas, arbustos, trepadeiras e algumas árvores, reconhecível pela presença de uma estrutura membranácea chamada ócrea que envolve o caule na base do pecíolo foliar.",
+      "As folhas são simples, alternas, com nervação pinada. As flores são pequenas, agrupadas em inflorescências, e os frutos são frequentemente nozes ou aquênios triangulares.",
+      "Inclui plantas de importância alimentícia, como o trigo-sarraceno (Fagopyrum esculentum), o ruibarbo (Rheum rhabarbarum) e a azedinha (Rumex acetosa). Muitas espécies de Rumex são consideradas plantas daninhas.",
+      "Algumas espécies são ornamentais, como a trepadeira-cipó-mil-homens (Antigonon leptopus), e outras são invasoras agressivas em certas regiões."
+    ],
+    "ficha": {
+      "Nome científico": "Polygonaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "49",
+      "Sequência numérica": "1-2-9-25"
+    }
+  },
+  "portulacaceae": {
+    "id": "portulacaceae",
+    "name": "Portulacaceae",
+    "page": "../html/familia.html?id=portulacaceae",
+    "descricaoLonga": [
+      "Portulacaceae é uma família de ervas suculentas, frequentemente rasteiras ou prostradas, adaptadas a ambientes secos ou perturbados.",
+      "As folhas são carnudas, simples, inteiras e geralmente alternas. As flores são vistosas, com pétalas coloridas (amarelas, rosas, vermelhas) que abrem apenas durante o dia em condições de sol.",
+      "O gênero Portulaca inclui a beldroega (Portulaca oleracea), considerada uma planta daninha em cultivos, mas também uma PANC (Planta Alimentícia Não Convencional) rica em ômega-3, e a onze-horas (Portulaca grandiflora), popular planta ornamental.",
+      "São plantas de fácil cultivo, tolerantes à seca, muito usadas em jardins de pedra, canteiros e como forração em locais ensolarados."
+    ],
+    "ficha": {
+      "Nome científico": "Portulacaceae",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "50",
+      "Sequência numérica": "1-2-9-26"
+    }
+  },
+  "rosaceae": {
+    "id": "rosaceae",
+    "name": "Rosaceae",
+    "page": "../html/familia.html?id=rosaceae",
+    "descricaoLonga": [
+      "Rosaceae é uma família economicamente crucial que inclui muitas das frutas temperadas mais importantes do mundo e uma enorme variedade de plantas ornamentais.",
+      "Entre seus membros estão a maçã, a pera, o pêssego, a ameixa, a cereja, o morango, a framboesa, a amêndoa e a rosa. A diversidade de tipos de frutos é grande: pomos, drupas, frutos agregados e aquênios.",
+      "As flores são geralmente vistosas, com cinco pétalas e numerosos estames, e são polinizadas por insetos. As folhas podem ser simples ou compostas, frequentemente com estípulas na base.",
+      "Além do valor frutícola, a família é inestimável para a horticultura ornamental, com milhares de cultivares de rosas, spireas, photinias e outras plantas de jardim."
+    ],
+    "ficha": {
+      "Nome científico": "Rosaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Rosales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero ou ínfero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples ou composta",
+      "Número da chave": "51",
+      "Sequência numérica": "1-2-9-10-14-26"
+    }
+  },
+  "rubiaceae": {
+    "id": "rubiaceae",
+    "name": "Rubiaceae",
+    "page": "../html/familia.html?id=rubiaceae",
+    "descricaoLonga": [
+      "Rubiaceae é uma das maiores famílias de plantas com flores, predominante em florestas tropicais. É reconhecível pelas folhas opostas e inteiras com estípulas interpeciolares (entre os pecíolos).",
+      "A família inclui plantas de enorme importância econômica e cultural, como o cafeeiro (Coffea arabica), a quina (Cinchona spp., fonte da quinina) e a gardênia (Gardenia jasminoides, ornamental e perfumada).",
+      "As flores são geralmente tubulares, com quatro ou cinco pétalas fundadas, e podem ser vistosas ou pequenas, agrupadas em inflorescências densas. Os frutos são diversos: bagas, drupas ou cápsulas.",
+      "Muitas espécies são utilizadas na medicina tradicional, como a ipecacuanha (Carapichea ipecacuanha), e outras são importantes madeireiras ou ornamentais."
+    ],
+    "ficha": {
+      "Nome científico": "Rubiaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Gentianales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "52",
+      "Sequência numérica": "1-2-3-4-7-10"
+    }
+  },
+  "rutaceae": {
+    "id": "rutaceae",
+    "name": "Rutaceae",
+    "page": "../html/familia.html?id=rutaceae",
+    "descricaoLonga": [
+      "Rutaceae é conhecida como a família dos cítricos, incluindo laranja, limão, lima, tangerina e grapefruit, que são híbridos complexos do gênero Citrus.",
+      "As plantas são geralmente arbustos ou árvores aromáticas, com folhas frequentemente compostas e pontuadas com glândulas de óleos essenciais visíveis à transparência. Muitas espécies possuem espinhos.",
+      "As flores são brancas e perfumadas, com pétalas livres (dialipétalas) e numerosos estames. Os frutos são hesperídios, um tipo especial de baga com casca espessa e suculenta rica em óleos essenciais.",
+      "Além dos cítricos, a família inclui outras plantas ornamentais e medicinais, como a Arruda (Ruta graveolens) e a Murraya (falsa-murta), usada como cerca viva."
+    ],
+    "ficha": {
+      "Nome científico": "Rutaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta ou simples",
+      "Número da chave": "53",
+      "Sequência numérica": "1-2-9-10-14-27"
+    }
+  },
+  "salicaceae": {
+    "id": "salicaceae",
+    "name": "Salicaceae",
+    "page": "../html/familia.html?id=salicaceae",
+    "descricaoLonga": [
+      "Salicaceae é uma família de árvores e arbustos dióicos (com indivíduos masculinos e femininos separados), comum em regiões temperadas e áreas úmidas.",
+      "Os gêneros principais são Salix (salgueiros e chorões) e Populus (choupos e álamos). As folhas são simples, alternas, e muitas espécies são de crescimento rápido, pioneiras em áreas perturbadas.",
+      "As flores são pequenas e reunidas em amentilhos (inflorescências pendentes), carecendo de pétalas vistosas, sendo polinizadas pelo vento. As sementes são leves e cobertas por tricomas algodonosos que facilitam a dispersão pelo vento.",
+      "São plantas importantes para a produção de madeira, celulose, estabilização de margens de rios e como ornamentais. O ácido salicílico, precursor da aspirina, foi originalmente isolado da casca do salgueiro."
+    ],
+    "ficha": {
+      "Nome científico": "Salicaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "54",
+      "Sequência numérica": "1-2-9-27"
+    }
+  },
+  "sapindaceae": {
+    "id": "sapindaceae",
+    "name": "Sapindaceae",
+    "page": "../html/familia.html?id=sapindaceae",
+    "descricaoLonga": [
+      "Sapindaceae, no sentido amplo do sistema APG, é uma família grande e diversa que inclui importantes árvores frutíferas, ornamentais e produtoras de madeira.",
+      "Entre seus membros estão a lichia (Litchi chinensis), o guaraná (Paullinia cupana), o rambutã (Nephelium lappaceum) e o velame (Cupania spp.). Muitas espécies produzem frutos com arilos comestíveis.",
+      "As folhas são geralmente compostas pinadas. As flores são pequenas, frequentemente unissexuais, e os frutos são variados: bagas, drupas ou cápsulas. O guaraná é conhecido pelas sementes ricas em cafeína.",
+      "A família também inclui muitas espécies de árvores madeireiras e ornamentais, como os gêneros Acer (bordo) e Aesculus (castanha-da-índia), que em sistemas tradicionais eram colocados em famílias separadas."
+    ],
+    "ficha": {
+      "Nome científico": "Sapindaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Composta pinada",
+      "Número da chave": "55",
+      "Sequência numérica": "1-2-9-10-14-28"
+    }
+  },
+  "sapotaceae": {
+    "id": "sapotaceae",
+    "name": "Sapotaceae",
+    "page": "../html/familia.html?id=sapotaceae",
+    "descricaoLonga": [
+      "Sapotaceae é uma família de árvores e arbustos tropicais, conhecida por produzir látex leitoso, frutos comestíveis e madeiras duras e valiosas.",
+      "Os membros mais famosos são o abiu (Pouteria caimito), o sapoti (Manilkara zapota) e a árvore que produz a goma de mascar natural (chicle, de Manilkara chicle). A castanha-do-pará (Bertholletia excelsa) pertence a uma família relacionada (Lecythidaceae).",
+      "As folhas são simples, alternas, geralmente com nervura central proeminente. As flores são pequenas e os frutos são bagas com uma ou várias sementes grandes e brilhantes.",
+      "Muitas espécies fornecem frutas locais importantes, látex, madeira para construção e óleos. A família é ecologicamente significativa em florestas tropicais."
+    ],
+    "ficha": {
+      "Nome científico": "Sapotaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Ericales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "56",
+      "Sequência numérica": "1-2-9-10-14-29"
+    }
+  },
+  "solanaceae": {
+    "id": "solanaceae",
+    "name": "Solanaceae",
+    "page": "../html/familia.html?id=solanaceae",
+    "descricaoLonga": [
+      "Solanaceae é uma família de enorme importância alimentar, medicinal e econômica, incluindo cultivos fundamentais para a humanidade.",
+      "Entre seus membros estão a batata (Solanum tuberosum), o tomate (Solanum lycopersicum), a berinjela (Solanum melongena), o pimentão e a pimenta (Capsicum spp.), e o tabaco (Nicotiana tabacum).",
+      "As plantas são frequentemente herbáceas, com folhas alternas. As flores têm corola gamopétala, geralmente em forma de estrela ou funil. Muitas espécies contêm alcaloides potentes, como a nicotina e a solanina, que podem ser tóxicos.",
+      "A família também inclui muitas plantas ornamentais, como a petúnia e o lírio-do-imperador, e espécies com propriedades psicoativas, como o tabaco e algumas Datura."
+    ],
+    "ficha": {
+      "Nome científico": "Solanaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Solanales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "57",
+      "Sequência numérica": "1-2-3-4-5-14"
+    }
+  },
+  "turneraceae": {
+    "id": "turneraceae",
+    "name": "Turneraceae",
+    "page": "../html/familia.html?id=turneraceae",
+    "descricaoLonga": [
+      "Turneraceae é uma pequena família de ervas, arbustos e subarbustos, nativa principalmente das Américas tropicais e subtropicais, e da África.",
+      "As folhas são simples, alternas, e frequentemente apresentam glândulas na base da lâmina ou no pecíolo. As flores são vistosas, geralmente amarelas, alaranjadas ou brancas, com cinco pétalas livres e um androceu com muitos estames.",
+      "Os frutos são cápsulas que se abrem em três válvulas, liberando numerosas sementes pequenas. Algumas espécies são cultivadas como ornamentais por sua floração prolongada e atraente.",
+      "A planta mais conhecida da família é talvez a Turnera diffusa, popularmente chamada de damiana, usada na medicina tradicional por suas supostas propriedades afrodisíacas e medicinais."
+    ],
+    "ficha": {
+      "Nome científico": "Turneraceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Malpighiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "58",
+      "Sequência numérica": "1-2-9-10-13-26"
+    }
+  },
+  "urticaceae": {
+    "id": "urticaceae",
+    "name": "Urticaceae",
+    "page": "../html/familia.html?id=urticaceae",
+    "descricaoLonga": [
+      "Urticaceae é uma família de ervas, arbustos e algumas árvores, famosa por incluir plantas com tricomas urticantes que causam irritação na pele, como a urtiga (Urtica dioica).",
+      "As folhas são simples, opostas ou alternas, com estípulas. As flores são pequenas, unissexuais, e agrupadas em inflorescências. Muitas espécies são dióicas.",
+      "Nem todos os membros são urticantes. A família também inclui plantas importantes como o rami (Boehmeria nivea), fonte de uma fibra têxtil forte, e muitas espécies ornamentais de Pilea, como a 'planta-alumínio' e a 'planta-da-amizade', populares como plantas de interior.",
+      "São plantas frequentemente pioneiras, comuns em áreas perturbadas e ricas em nitrogênio. Algumas são usadas como alimento (folhas jovens de urtiga) ou na medicina tradicional."
+    ],
+    "ficha": {
+      "Nome científico": "Urticaceae",
+      "Clado": "Rosídeas",
+      "Ordem": "Rosales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Aclamídea ou homoclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples",
+      "Número da chave": "59",
+      "Sequência numérica": "1-2-9-28"
+    }
+  },
+  "verbenaceae": {
+    "id": "verbenaceae",
+    "name": "Verbenaceae",
+    "page": "../html/familia.html?id=verbenaceae",
+    "descricaoLonga": [
+      "Verbenaceae é uma família de arbustos, árvores, trepadeiras e algumas ervas, muitas delas com flores vistosas e aromáticas, muito utilizadas no paisagismo.",
+      "Os gêneros mais conhecidos incluem Lantana (cambará), com inflorescências multicoloridas que mudam de cor conforme amadurecem; Verbena (verbena), popular em jardins; e Aloysia (lípia ou erva-cidreira), cujas folhas são usadas para chá.",
+      "As folhas são geralmente opostas, simples ou compostas. As flores são bilabiadas, com a corola gamopétala formando um tubo, e são muito atrativas para borboletas, beija-flores e abelhas.",
+      "São plantas tipicamente de regiões tropicais e subtropicais, muitas tolerantes ao calor e à seca, ideais para jardins. Algumas espécies de Lantana tornaram-se invasoras em várias partes do mundo."
+    ],
+    "ficha": {
+      "Nome científico": "Verbenaceae",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Posição taxonômica APG IV": "Eudicotiledônea",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isoestêmone",
+      "Tipo de folha": "Simples ou composta",
+      "Número da chave": "60",
+      "Sequência numérica": "1-2-3-4-5-15"
+    }
+  },
+  "xanthorrhoeaceae": {
+    "id": "xanthorrhoeaceae",
+    "name": "Xanthorrhoeaceae",
+    "page": "../html/familia.html?id=xanthorrhoeaceae",
+    "descricaoLonga": [
+      "Xanthorrhoeaceae, no sistema APG III, foi uma família ampla que incluía os antigos Asphodelaceae e Hemerocallidaceae. No APG IV, muitos de seus gêneros foram redistribuídos, mas o nome ainda é usado em alguns contextos.",
+      "A família, em seu sentido mais estrito, é australiana e inclui o gênero Xanthorrhoea, as chamadas 'gramas-de-arbusto' ou 'blackboys', plantas perenes com um tronco lenhoso coberto pelas bases das folhas velhas e uma coroa de folhas longas e rígidas.",
+      "Estas plantas são adaptadas a incêndios; suas inflorescências altas e em forma de espiga surgem após queimadas. A resina de algumas espécies era usada por povos indígenas e primeiros colonos.",
+      "A família, em sentido amplo, também incluía plantas ornamentais muito populares como os aloés (Aloe), as hemerocális (Hemerocallis) e as hostas (Hosta)."
+    ],
+    "ficha": {
+      "Nome científico": "Xanthorrhoeaceae",
+      "Clado": "Monocotiledôneas",
+      "Ordem": "Asparagales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "11",
+      "Sequência numérica": "1-11"
+    }
+  },
+  "zingiberaceae": {
+    "id": "zingiberaceae",
+    "name": "Zingiberaceae",
+    "page": "../html/familia.html?id=zingiberaceae",
+    "descricaoLonga": [
+      "Zingiberaceae é a família dos gengibres, cardamomos, cúrcumas e afins, plantas herbáceas, aromáticas e rizomatosas, com grande importância como especiarias, medicamentos e ornamentais.",
+      "As plantas têm caules aéreos formados por bainhas foliares imbricadas. As folhas são simples, inteiras, dispostas em duas fileiras. As flores são complexas e vistosas, com uma pétala modificada chamada labelo, e estão agrupadas em inflorescências densas.",
+      "Os rizomas (caules subterrâneos) de muitas espécies são a parte utilizada: gengibre (Zingiber officinale), cúrcuma (Curcuma longa) e gálanga. O cardamomo (Elettaria cardamomum) são os frutos.",
+      "A família inclui muitas plantas ornamentais tropicais de grande beleza, como as do gênero Hedychium (gengibre-borboleta) e Alpinia. São componentes importantes da flora de florestas tropicais úmidas."
+    ],
+    "ficha": {
+      "Nome científico": "Zingiberaceae",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Zingiberales",
+      "Posição taxonômica APG IV": "Monocotiledônea",
+      "Soldura lateral das pétalas": "Arquiclamídea",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Ínfero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples",
+      "Número da chave": "12",
+      "Sequência numérica": "1-12"
+    }
+  }
+}

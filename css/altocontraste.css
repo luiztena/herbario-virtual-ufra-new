@@ -1,0 +1,262 @@
+/* altocontraste.css - BOTÃO AMARELO COM LETRA PRETA */
+
+/* ============ BOTÃO DE ALTO CONTRASTE ============ */
+/* Botão no modo NORMAL (sem alto contraste) */
+#toggle-contraste {
+    background-color: #2e7d32 !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+    margin-right: 20px;
+}
+
+/* Botão no modo ALTO CONTRASTE (ATIVO) - AMARELO COM LETRA PRETA */
+body.alto-contraste #toggle-contraste {
+    background-color: #ffff00 !important; /* AMARELO FORTE */
+    color: #000000 !important; /* PRETO */
+    border: 2px solid #000000 !important; /* BORDA PRETA */
+    box-shadow: 0 0 10px #ffff00 !important;
+    font-weight: bold !important;
+}
+
+/* Hover do botão no alto contraste */
+body.alto-contraste #toggle-contraste:hover {
+    background-color: #ffeb3b !important; /* AMARELO MAIS CLARO */
+    color: #000000 !important;
+    border-color: #000000 !important;
+    transform: scale(1.05) !important;
+}
+
+/* Focus do botão no alto contraste */
+body.alto-contraste #toggle-contraste:focus {
+    outline: 3px solid #000000 !important;
+    outline-offset: 2px !important;
+}
+
+/* Remove qualquer fundo preto dentro do botão */
+body.alto-contraste #toggle-contraste *,
+body.alto-contraste #toggle-contraste::before,
+body.alto-contraste #toggle-contraste::after {
+    background-color: transparent !important;
+    background: transparent !important;
+    color: inherit !important; /* Herda a cor preta do botão pai */
+}
+
+/* Especificamente para o ícone e texto */
+body.alto-contraste .contrast-icon {
+    color: #000000 !important;
+    background: transparent !important;
+}
+
+body.alto-contraste .contrast-text {
+    color: #000000 !important;
+    background: transparent !important;
+    font-weight: bold !important;
+}
+
+/* ============ BOTÃO DA GUIA DE ACESSIBILIDADE ============ */
+/* Botão no modo NORMAL */
+#guia-acessibilidade {
+    background-color: #2e7d32 !important;
+    color: white !important;
+    border: none !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2) !important;
+    margin-right: 20px !important;
+}
+
+/* Botão no modo ALTO CONTRASTE (ATIVO) */
+body.alto-contraste #guia-acessibilidade {
+    background-color: #ffff00 !important; /* AMARELO FORTE */
+    color: #000000 !important; /* PRETO */
+    border: 2px solid #000000 !important; /* BORDA PRETA */
+    box-shadow: 0 0 10px #ffff00 !important;
+    font-weight: bold !important;
+}
+
+body.alto-contraste #guia-acessibilidade:hover {
+    background-color: #ffeb3b !important;
+    color: #000000 !important;
+    border-color: #000000 !important;
+    transform: scale(1.05) !important;
+}
+
+body.alto-contraste #guia-acessibilidade:focus {
+    outline: 3px solid #000000 !important;
+    outline-offset: 2px !important;
+}
+
+body.alto-contraste #guia-acessibilidade *,
+body.alto-contraste #guia-acessibilidade::before,
+body.alto-contraste #guia-acessibilidade::after {
+    background-color: transparent !important;
+    background: transparent !important;
+    color: inherit !important;
+}
+
+body.alto-contraste .acessibilidade-icon {
+    color: #000000 !important;
+    background: transparent !important;
+}
+
+body.alto-contraste .acessibilidade-text {
+    color: #000000 !important;
+    background: transparent !important;
+    font-weight: bold !important;
+}
+
+/* ============ BARRA DE PESQUISA NO ALTO CONTRASTE ============ */
+body.alto-contraste #search-bar {
+    background-color: #000 !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+body.alto-contraste #search-bar::placeholder {
+    color: #fff !important;
+    opacity: 0.9;
+}
+
+/* ============ BOTÃO DE BUSCA NO ALTO CONTRASTE ============ */
+body.alto-contraste #search-btn {
+    background-color: #000 !important;
+    color: yellow !important;
+    border: 2px solid #fff !important;
+    font-weight: bold !important;
+}
+
+/* ============ REMOVER TODOS OS FUNDOS E IMAGENS ============ */
+/* Exclui os botões do seletor universal */
+body.alto-contraste,
+body.alto-contraste *:not(#toggle-contraste):not(#toggle-contraste *):not(#guia-acessibilidade):not(#guia-acessibilidade *) {
+    background-color: #000 !important;
+    background: #000 !important;
+    background-image: none !important;
+}
+
+/* ============ FUNDO DO BODY E ELEMENTOS PRINCIPAIS ============ */
+body.alto-contraste {
+    background-color: #000 !important;
+    background: #000 !important;
+    color: #fff !important;
+}
+
+/* Remover todas as imagens de fundo */
+body.alto-contraste .bodyhome,
+body.alto-contraste .hero,
+body.alto-contraste main,
+body.alto-contraste #centro,
+body.alto-contraste .sectioncontainer {
+    background-image: none !important;
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+/* ============ HEADER E NAV COMPLETAMENTE PRETOS ============ */
+body.alto-contraste header,
+body.alto-contraste .site-header,
+body.alto-contraste .header-content,
+body.alto-contraste nav,
+body.alto-contraste nav ul,
+body.alto-contraste nav li {
+    background-color: #000 !important;
+    background: #000 !important;
+    background-image: none !important;
+}
+
+/* Borda branca para destacar o header */
+body.alto-contraste header {
+    border-bottom: 2px solid #fff !important;
+}
+
+/* ============ REMOVER GRADIENTES E TEXTURAS ============ */
+body.alto-contraste *:not(#toggle-contraste):not(#toggle-contraste *):not(#guia-acessibilidade):not(#guia-acessibilidade *) {
+    background-image: none !important;
+}
+
+/* Sobrescrever gradientes específicos */
+body.alto-contraste header {
+    background: linear-gradient(to right, #000, #000) !important;
+    background-color: #000 !important;
+}
+
+/* ============ FUNDO DOS CONTAINERS E CARDS ============ */
+body.alto-contraste .plant-card,
+body.alto-contraste .genero-card,
+body.alto-contraste .galeria-item,
+body.alto-contraste .mvv-card,
+body.alto-contraste .tipo-card,
+body.alto-contraste .sectioncontainer,
+body.alto-contraste .tree-container,
+body.alto-contraste .catalogo-cta,
+body.alto-contraste .tipo-destaque {
+    background-color: #000 !important;
+    background: #000 !important;
+    border: 2px solid green !important;
+}
+
+/* ============ FOOTER PRETO ============ */
+body.alto-contraste footer {
+    background-color: #000 !important;
+    background: #000 !important;
+    border: 2px solid #fff !important;
+}
+
+/* ============ REMOVER QUALQUER TRANSPARÊNCIA ============ */
+body.alto-contraste *:not(#toggle-contraste):not(#toggle-contraste *):not(#guia-acessibilidade):not(#guia-acessibilidade *) {
+    opacity: 1 !important;
+}
+
+/* ============ CORES DO TEXTO ============ */
+body.alto-contraste h1,
+body.alto-contraste h2,
+body.alto-contraste h3,
+body.alto-contraste h4,
+body.alto-contraste h5,
+body.alto-contraste h6,
+body.alto-contraste p,
+body.alto-contraste li,
+body.alto-contraste span,
+body.alto-contraste div:not(.btn):not(.filter-btn) {
+    color: #fff !important;
+}
+
+/* ============ LINKS EM AMARELO ============ */
+body.alto-contraste a:not(.btn):not(.filter-btn) {
+    text-decoration: underline !important;
+}
+
+/* ============ BOTÕES EM BRANCO COM TEXTO PRETO ============ */
+body.alto-contraste .btn,
+body.alto-contraste .filter-btn,
+body.alto-contraste .btn-apg,
+body.alto-contraste .cta-button,
+body.alto-contraste .actions a {
+    background-color: #000 !important;
+    color: yellow !important;
+    border: 2px solid #fff !important;
+    font-weight: bold !important;
+}
+
+/* ============ ESTILOS PARA MOBILE ============ */
+@media (max-width: 768px) {
+    /* Botão da guia de acessibilidade no mobile */
+    #guia-acessibilidade {
+        width: 40px !important;
+        height: 40px !important;
+        padding: 8px !important;
+        border-radius: 50% !important;
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+    
+    .acessibilidade-text {
+        display: none !important;
+    }
+    
+    .acessibilidade-icon {
+        margin: 0 !important;
+        font-size: 16px !important;
+        display: block !important;
+    }
+}

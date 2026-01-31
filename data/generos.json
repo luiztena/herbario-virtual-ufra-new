@@ -1,0 +1,266 @@
+{
+  "alternanthera": {
+    "id": "alternanthera",
+    "name": "Alternanthera",
+    "family": "amaranthaceae",
+    "image": "imagens/genero/amaranthaceae/alternanthera.jpg",
+    "page": "../html/genero.html?id=alternanthera",
+    "descricaoLonga": [
+      "Alternanthera é um gênero de plantas herbáceas da família Amaranthaceae, conhecido por suas espécies ornamentais e medicinais.",
+      "As plantas deste gênero são caracterizadas por folhas simples, opostas e inflorescências em espigas ou capítulos.",
+      "Muitas espécies são utilizadas no paisagismo devido à coloração vibrante de suas folhas."
+    ],
+    "ficha": {
+      "Nome científico": "Alternanthera",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Família": "Amaranthaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Caryophyllales",
+      "Soldura lateral das pétalas": "Dialipétala ou apétala",
+      "Número de verticilos protetores": "Monoclamídea ou Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples, oposta"
+    }
+  },
+  "bignonia": {
+    "id": "bignonia",
+    "name": "Bignonia",
+    "family": "bignoniaceae",
+    "image": "imagens/genero/bignoniaceae/bignonia.jpg",
+    "page": "../html/genero.html?id=bignonia",
+    "descricaoLonga": [
+      "Bignonia é um gênero de trepadeiras da família Bignoniaceae, conhecidas por suas belas flores roxas.",
+      "A espécie mais conhecida é Saritaea magnifica, popular no paisagismo tropical.",
+      "As plantas são vigorosas e florescem abundantemente, sendo ideais para cobrir pérgolas e muros."
+    ],
+    "ficha": {
+      "Nome científico": "Bignonia",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Família": "Bignoniaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Lamiales",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone",
+      "Tipo de folha": "Simples ou composta"
+    }
+  },
+  "hebanthe": {
+    "id": "hebanthe",
+    "name": "Hebanthe",
+    "family": "amaranthaceae",
+    "image": "imagens/genero/amaranthaceae/hebanthe.jpg",
+    "page": "../html/genero.html?id=hebanthe",
+    "descricaoLonga": [
+      "Hebanthe é um gênero de plantas herbáceas perenes pertencentes à família Amaranthaceae.",
+      "Estas plantas são caracterizadas por suas folhas simples e inflorescências discretas.",
+      "Algumas espécies possuem importância medicinal em sistemas tradicionais de cura."
+    ],
+    "ficha": {
+      "Nome científico": "Hebanthe",
+      "Clado": "Núcleo das Eudicotiledôneas",
+      "Ordem": "Caryophyllales",
+      "Família": "Amaranthaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Caryophyllales",
+      "Soldura lateral das pétalas": "Dialipétala ou apétala",
+      "Número de verticilos protetores": "Monoclamídea ou Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples"
+    }
+  },
+  "anacardium": {
+    "id": "anacardium",
+    "name": "Anacardium",
+    "family": "anacardiaceae",
+    "image": "imagens/genero/anacardiaceae/anacardium.jpg",
+    "page": "../html/genero.html?id=anacardium",
+    "descricaoLonga": [
+      "Anacardium é um gênero de árvores tropicais da família Anacardiaceae, sendo o cajueiro (Anacardium occidentale) sua espécie mais conhecida.",
+      "As plantas produzem um pseudofruto carnoso (caju) e uma noz (castanha de caju) de alto valor comercial.",
+      "São árvores de médio porte com folhas simples e flores pequenas agrupadas em panículas."
+    ],
+    "ficha": {
+      "Nome científico": "Anacardium",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Família": "Anacardiaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Sapindales",
+      "Soldura lateral das pétalas": "Dialipétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples, alterna"
+    }
+  },
+  "mangifera": {
+    "id": "mangifera",
+    "name": "Mangifera",
+    "family": "anacardiaceae",
+    "image": "imagens/genero/anacardiaceae/mangifera.jpg",
+    "page": "../html/genero.html?id=mangifera",
+    "descricaoLonga": [
+      "Mangifera é um gênero de árvores frutíferas da família Anacardiaceae, sendo a manga (Mangifera indica) uma das frutas tropicais mais populares do mundo.",
+      "As árvores são perenes, de grande porte, com folhas lanceoladas e flores pequenas em panículas terminais.",
+      "A manga é rica em vitaminas, fibras e compostos antioxidantes, sendo consumida fresca ou processada."
+    ],
+    "ficha": {
+      "Nome científico": "Mangifera",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Família": "Anacardiaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Sapindales",
+      "Soldura lateral das pétalas": "Dialipétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Simples, alterna"
+    }
+  },
+  "tapirira": {
+    "id": "tapirira",
+    "name": "Tapirira",
+    "family": "anacardiaceae",
+    "image": "imagens/genero/anacardiaceae/tapirira.jpg",
+    "page": "../html/genero.html?id=tapirira",
+    "descricaoLonga": [
+      "Tapirira é um gênero de árvores da família Anacardiaceae encontradas em florestas tropicais da América do Sul.",
+      "As plantas são importantes na composição florestal e servem como fonte de alimento para a fauna silvestre.",
+      "Apresentam folhas compostas e frutos do tipo drupa, muito apreciados por aves."
+    ],
+    "ficha": {
+      "Nome científico": "Tapirira",
+      "Clado": "Rosídeas",
+      "Ordem": "Sapindales",
+      "Família": "Anacardiaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Sapindales",
+      "Soldura lateral das pétalas": "Dialipétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Composta pinada, alterna"
+    }
+  },
+  "justicia": {
+    "id": "justicia",
+    "name": "Justicia",
+    "family": "acanthaceae",
+    "image": "imagens/genero/acanthaceae/justicia.png",
+    "page": "../html/genero.html?id=justicia",
+    "descricaoLonga": [
+      "Justicia é um gênero diverso da família Acanthaceae com mais de 700 espécies distribuídas principalmente em regiões tropicais.",
+      "As plantas são conhecidas por suas inflorescências vistosas em tons de vermelho, rosa, amarelo e branco.",
+      "Muitas espécies são cultivadas como ornamentais em jardins e também possuem propriedades medicinais."
+    ],
+    "ficha": {
+      "Nome científico": "Justicia",
+      "Clado": "Asterídeas",
+      "Ordem": "Lamiales",
+      "Família": "Acanthaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Lamiales",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Oligostêmone (2 ou 4)",
+      "Tipo de folha": "Simples, oposta"
+    }
+  },
+  "allamanda": {
+    "id": "allamanda",
+    "name": "Allamanda",
+    "family": "apocynaceae",
+    "image": "imagens/genero/apocynaceae/allamanda.jpg",
+    "page": "../html/genero.html?id=allamanda",
+    "descricaoLonga": [
+      "Allamanda é um gênero de plantas trepadeiras da família Apocynaceae, nativas da América tropical.",
+      "São conhecidas por suas grandes flores amarelas em forma de trombeta, muito utilizadas no paisagismo.",
+      "As plantas produzem látex e devem ser manuseadas com cuidado, pois todas as partes são tóxicas."
+    ],
+    "ficha": {
+      "Nome científico": "Allamanda",
+      "Clado": "Asterídeas",
+      "Ordem": "Gentianales",
+      "Família": "Apocynaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Gentianales",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isostêmone",
+      "Tipo de folha": "Simples, oposta ou verticilada"
+    }
+  },
+  "tabernaemontana": {
+    "id": "tabernaemontana",
+    "name": "Tabernaemontana",
+    "family": "apocynaceae",
+    "image": "imagens/genero/apocynaceae/tabernaemontana.jpg",
+    "page": "../html/genero.html?id=tabernaemontana",
+    "descricaoLonga": [
+      "Tabernaemontana é um gênero de arbustos e pequenas árvores da família Apocynaceae, conhecidos popularmente como jasmim-café.",
+      "As plantas produzem flores brancas muito perfumadas e são amplamente cultivadas como ornamentais.",
+      "Algumas espécies possuem propriedades medicinais e são utilizadas na medicina tradicional."
+    ],
+    "ficha": {
+      "Nome científico": "Tabernaemontana",
+      "Clado": "Asterídeas",
+      "Ordem": "Gentianales",
+      "Família": "Apocynaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Gentianales",
+      "Soldura lateral das pétalas": "Gamopétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Isostêmone",
+      "Tipo de folha": "Simples, oposta"
+    }
+  },
+  "euterpe": {
+    "id": "euterpe",
+    "name": "Euterpe",
+    "family": "arecaceae",
+    "image": "imagens/genero/arecaceae/euterpe.jpg",
+    "page": "../html/genero.html?id=euterpe",
+    "descricaoLonga": [
+      "Euterpe é um gênero de palmeiras da família Arecaceae, sendo o açaizeiro (Euterpe oleracea) a espécie mais conhecida.",
+      "O açaí é um fruto rico em antioxidantes e nutrientes, amplamente consumido na região amazônica e cada vez mais popular mundialmente.",
+      "As palmeiras também fornecem palmito de alta qualidade e material para construção."
+    ],
+    "ficha": {
+      "Nome científico": "Euterpe",
+      "Clado": "Monocotiledôneas (Commelinídeas)",
+      "Ordem": "Arecales",
+      "Família": "Arecaceae",
+      "Posição taxonômica APG IV": "Monocotiledônea - Arecales",
+      "Soldura lateral das pétalas": "Dialitépala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Variável",
+      "Tipo de folha": "Composta pinada (palmeira)"
+    }
+  },
+  "bixa": {
+    "id": "bixa",
+    "name": "Bixa",
+    "family": "bixaceae",
+    "image": "imagens/genero/bixaceae/bixa.jpg",
+    "page": "../html/genero.html?id=bixa",
+    "descricaoLonga": [
+      "Bixa é um gênero da família Bixaceae, sendo o urucum (Bixa orellana) a espécie mais conhecida.",
+      "As sementes do urucum são utilizadas há séculos como corante natural na culinária e na indústria cosmética.",
+      "A planta também possui propriedades medicinais e é cultivada em diversas regiões tropicais."
+    ],
+    "ficha": {
+      "Nome científico": "Bixa",
+      "Clado": "Rosídeas",
+      "Ordem": "Malvales",
+      "Família": "Bixaceae",
+      "Posição taxonômica APG IV": "Eudicotiledônea - Malvales",
+      "Soldura lateral das pétalas": "Dialipétala",
+      "Número de verticilos protetores": "Diclamídea",
+      "Posição do ovário": "Súpero",
+      "Número de estames comparado ao número de pétalas": "Polistêmone",
+      "Tipo de folha": "Simples, alterna"
+    }
+  }
+}
