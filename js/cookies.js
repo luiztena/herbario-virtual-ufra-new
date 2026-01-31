@@ -1,16 +1,27 @@
 // cookies.js - VERSÃO SEGURA (sem chaves expostas)
+
+console.log('🔍 Verificando window.CONFIG:', window.CONFIG);
+console.log('🔍 GA_MEASUREMENT_ID:', window.CONFIG?.GA_MEASUREMENT_ID);
+
 (function() {
     'use strict';
     
     console.log('🌿 cookies.js INICIADO - Herbário Virtual UFRA');
+    console.log('📅 Estado do DOM:', document.readyState);
     
     // ============================================
-    // VERIFICAÇÃO DE CONFIGURAÇÃO (PASSO 2)
+    // VERIFICAÇÃO DE CONFIGURAÇÃO (MAIS TOLERANTE)
     // ============================================
-    if (!window.CONFIG || !window.CONFIG.GA_MEASUREMENT_ID) {
-        console.warn('⚠️ Configurações não encontradas. Carregue config.js primeiro');
-        console.warn('ℹ️ O banner de cookies NÃO será exibido sem as configurações.');
-        return; // Não executa se não tiver chaves
+    if (!window.CONFIG) {
+        console.error('❌ window.CONFIG não existe! Carregue config.js primeiro');
+        // Cria um objeto vazio para evitar erros
+        window.CONFIG = {};
+    }
+    
+    if (!window.CONFIG.GA_MEASUREMENT_ID) {
+        console.warn('⚠️ GA_MEASUREMENT_ID não definido. Usando modo de teste.');
+        console.warn('ℹ️ O banner será mostrado apenas se você configurar o GA no config.js');
+        window.CONFIG.GA_MEASUREMENT_ID = 'TEST-MODE-NO-GA';
     }
     
     // ============================================
@@ -22,34 +33,38 @@
         EXPIRY_DAYS: 365
     };
     
-    console.log('✅ Configurações carregadas:', {
-        GA_ID: CONFIG.GA_MEASUREMENT_ID ? 'Presente' : 'Ausente',
-        BannerID: CONFIG.BANNER_ID
-    });
+    console.log('✅ Configurações carregadas:', CONFIG);
 
     // ============================================
-    // INICIALIZAÇÃO
-    // ============================================
-    document.addEventListener('DOMContentLoaded', function() {
-        console.log('📋 DOM carregado, iniciando banner...');
-        initCookieBanner();
-    });
-
-    // ============================================
-    // FUNÇÕES PRINCIPAIS
+    // INICIALIZAÇÃO MELHORADA
     // ============================================
     function initCookieBanner() {
         console.log('🎯 Iniciando banner de cookies...');
+        console.log('🔍 Banner existe?', !!document.getElementById(CONFIG.BANNER_ID));
         
-        // Cria banner se não existir
-        if (!document.getElementById(CONFIG.BANNER_ID)) {
-            console.log('🆕 Criando banner...');
-            createBanner();
+        // Remove banner existente (se houver) para evitar duplicação
+        const existingBanner = document.getElementById(CONFIG.BANNER_ID);
+        if (existingBanner) {
+            existingBanner.remove();
+            console.log('🔄 Banner antigo removido');
         }
+        
+        // Cria banner
+        createBanner();
         
         // Verifica decisão anterior
         const decision = getCookieDecision();
         console.log('🤔 Decisão anterior:', decision || 'Nenhuma');
+        
+        // DEBUG: Força mostrar o banner sempre no modo de teste
+        if (CONFIG.GA_MEASUREMENT_ID === 'TEST-MODE-NO-GA') {
+            console.log('🔧 Modo de teste: mostrando banner para debug');
+            // Limpa decisões anteriores
+            localStorage.removeItem('cookie_consent');
+            document.cookie = "cookie_consent=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            showBanner();
+            return;
+        }
         
         if (!decision) {
             console.log('👋 Mostrando banner (primeira visita)');
@@ -59,6 +74,29 @@
             loadGoogleAnalytics();
         }
         // Se 'rejected', não faz nada
+    }
+
+    // ============================================
+    // VERIFICA SE O DOM JÁ CARREGOU
+    // ============================================
+    function start() {
+        if (CONFIG.GA_MEASUREMENT_ID === 'TEST-MODE-NO-GA') {
+            console.log('⚠️ Executando em modo de teste (sem GA configurado)');
+            // Mostra banner mesmo sem GA configurado
+            setTimeout(initCookieBanner, 500);
+        } else {
+            initCookieBanner();
+        }
+    }
+    
+    if (document.readyState === 'loading') {
+        // DOM ainda carregando, espera
+        console.log('⏳ Aguardando DOM carregar...');
+        document.addEventListener('DOMContentLoaded', start);
+    } else {
+        // DOM já carregado
+        console.log('⚡ DOM já carregado, iniciando imediatamente');
+        setTimeout(start, 100);
     }
 
     // ============================================
@@ -96,12 +134,30 @@
         if (banner) {
             banner.style.display = 'block';
             console.log('👁️ Banner visível!');
+            
+            // Adiciona borda vermelha para debug (remova depois)
+            banner.style.border = '2px solid red';
+            
+            // Verifica se está realmente visível
+            setTimeout(() => {
+                console.log('📏 Banner dimensions:', {
+                    offsetHeight: banner.offsetHeight,
+                    clientHeight: banner.clientHeight,
+                    offsetParent: banner.offsetParent,
+                    computedDisplay: window.getComputedStyle(banner).display
+                });
+            }, 100);
+        } else {
+            console.error('❌ Banner não encontrado para mostrar!');
         }
     }
 
     function hideBanner() {
         const banner = document.getElementById(CONFIG.BANNER_ID);
-        if (banner) banner.style.display = 'none';
+        if (banner) {
+            banner.style.display = 'none';
+            console.log('🔒 Banner escondido');
+        }
     }
 
     // ============================================
@@ -168,7 +224,7 @@
             return;
         }
         
-        if (!CONFIG.GA_MEASUREMENT_ID || CONFIG.GA_MEASUREMENT_ID === 'CONFIDENCIAL') {
+        if (!CONFIG.GA_MEASUREMENT_ID || CONFIG.GA_MEASUREMENT_ID === 'TEST-MODE-NO-GA') {
             console.error('❌ ID do Google Analytics inválido. Verifique config.js');
             return;
         }
@@ -239,6 +295,32 @@
             });
             console.log(`📈 Evento trackeado: ${category} - ${action} - ${label}`);
         }
+    };
+
+    // ============================================
+    // FUNÇÃO DE DEBUG
+    // ============================================
+    window.debugCookies = function() {
+        console.log('=== DEBUG COOKIES ===');
+        console.log('1. Config:', window.CONFIG);
+        console.log('2. GA ID:', CONFIG.GA_MEASUREMENT_ID);
+        console.log('3. Banner no DOM:', document.getElementById(CONFIG.BANNER_ID));
+        console.log('4. Cookie decision:', getCookieDecision());
+        console.log('5. LocalStorage:', localStorage.getItem('cookie_consent'));
+        console.log('6. DOM readyState:', document.readyState);
+        
+        // Força mostrar o banner
+        const banner = document.getElementById(CONFIG.BANNER_ID);
+        if (banner) {
+            banner.style.display = 'block';
+            console.log('7. Banner forçado a mostrar');
+        } else {
+            console.log('7. Criando banner...');
+            createBanner();
+            showBanner();
+        }
+        
+        console.log('=== FIM DEBUG ===');
     };
 
     console.log('✅ cookies.js carregado com sucesso!');
