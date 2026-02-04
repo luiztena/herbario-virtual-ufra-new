@@ -1,9 +1,3 @@
-/**
- * acessibilidade.js
- * VLibras com proteção de links e botões
- * Herbário Virtual UFRA
- */
-
 (function() {
     'use strict';
     

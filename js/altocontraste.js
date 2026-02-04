@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (isMobile) {
             // MOBILE: botões circulares - abaixo do header
-            toggleBtn.style.top = `${headerHeight + 10}px`; // Abaixo do header
+            toggleBtn.style.top = `${headerHeight + 10}px`; 
             toggleBtn.style.right = '10px';
             toggleBtn.style.left = 'auto';
             toggleBtn.style.padding = '8px';
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
             toggleBtn.style.borderRadius = '50%';
             toggleBtn.style.justifyContent = 'center';
             
-            acessibilidadeBtn.style.top = `${headerHeight + 10}px`; // Abaixo do header
+            acessibilidadeBtn.style.top = `${headerHeight + 10}px`; 
             acessibilidadeBtn.style.left = '10px';
             acessibilidadeBtn.style.right = 'auto';
             acessibilidadeBtn.style.padding = '8px';

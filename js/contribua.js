@@ -185,7 +185,7 @@
     }
 
     // ============================================
-    // COLETA DE DADOS (mantida igual)
+    // COLETA DE DADOS 
     // ============================================
     function coletarDados(form, tipo) {
         const dataFormatada = new Date().toLocaleDateString('pt-BR', {
@@ -328,4 +328,4 @@
         }
     }
 
-})(); // FIM DA FUNÇÃO IMEDIATAMENTE INVOCADA
+})(); 

@@ -557,11 +557,9 @@ document.addEventListener('DOMContentLoaded', async function() {
                         }
                     }
                 }
-                // Se não estiver na página de categorias, o link funcionará normalmente
             });
         });
     }
 
-    // Iniciar
     inicializar();
 });

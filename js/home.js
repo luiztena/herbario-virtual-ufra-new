@@ -35,6 +35,3 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error('   Verifique se as classes .mvv-card e .mvv-title existem no HTML');
     }
 });
-
-// ================= OUTRAS FUNCIONALIDADES (se necessário) =================
-// Você pode adicionar mais funcionalidades JavaScript aqui
