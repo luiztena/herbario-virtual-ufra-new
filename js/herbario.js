@@ -1,4 +1,3 @@
-// COLOCAR NO INÍCIO DO ARQUIVO
 (function() {
   const originalAddEventListener = EventTarget.prototype.addEventListener;
   
