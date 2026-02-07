@@ -187,8 +187,12 @@ async function carregarGeneros(familiaId) {
     }
 }
 
+
+
 // Exibir cards dos gêneros
 function exibirGeneros(generos) {
+    console.log("🎯 FUNÇÃO ATUALIZADA - VERSÃO CORRIGIDA!");
+    
     const section = document.getElementById('generos-section');
     
     if (!section) return;
@@ -223,6 +227,34 @@ function exibirGeneros(generos) {
     container.innerHTML = '';
     
     generos.forEach(genero => {
+        // ============================================
+        // CORREÇÃO DO CAMINHO DA IMAGEM:
+        // ============================================
+        console.log("🔍 Processando gênero:", genero.name);
+        console.log("🔍 Imagem original:", genero.image);
+        
+        let imagePath = genero.image || '';
+        
+        // Remove ../ se existir
+        if (imagePath.startsWith('../')) {
+            imagePath = imagePath.substring(3);
+            console.log("🔍 Removeu ../ →", imagePath);
+        }
+        
+        // Constrói o caminho final
+        let finalImagePath;
+        if (!imagePath) {
+            finalImagePath = '../imagens/site-imagem/placeholder.png';
+        } else if (imagePath.startsWith('/') || imagePath.startsWith('http')) {
+            finalImagePath = imagePath;
+        } else {
+            // Adiciona ../ no início se não tiver
+            finalImagePath = `../${imagePath}`;
+        }
+        
+        console.log("✅ Caminho final:", finalImagePath);
+        // ============================================
+        
         const card = document.createElement('a');
         card.href = genero.page || '#';
         card.className = 'card-link';
@@ -230,9 +262,10 @@ function exibirGeneros(generos) {
         card.innerHTML = `
             <div class="plant-card">
                 <figure>
-                    <img src="${genero.image || '../imagens/site-imagem/placeholder.png'}" 
+                    <img src="${finalImagePath}" 
                          alt="${genero.name}" 
-                         class="plant-img">
+                         class="plant-img"
+                         onerror="console.error('❌ Erro ao carregar:', this.src); this.src='../imagens/site-imagem/placeholder.png'">
                 </figure>
                 <div class="plant-info">
                     <h3 class="plant-name">${genero.name}</h3>
