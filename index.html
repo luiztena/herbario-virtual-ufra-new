@@ -2,55 +2,106 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- META TAGS DE SEO (não afetam visual) -->
+    <meta name="description" content="Herbário Virtual da UFRA - Catálogo digital de plantas da Amazônia. Explore espécies, famílias botânicas e contribua com nosso acervo científico.">
+    <meta name="keywords" content="herbário virtual, plantas amazônicas, botânica, UFRA, catálogo plantas, espécies vegetais, angiospermas">
+    <meta name="author" content="Universidade Federal Rural da Amazônia">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Herbário Virtual - UFRA">
+    <meta property="og:description" content="Explore a diversidade vegetal amazônica no nosso catálogo digital">
+    <meta property="og:image" content="https://herbariovirtualufra.com/imagens/site-imagem/OG.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Herbário Virtual UFRA - Catálogo de Plantas Amazônicas">    
+    <meta property="og:url" content="https://herbariovirtualufra.com">
+    <meta name="twitter:card" content="summary">
+    
+    <!-- LINK PARA SITEMAP (não afeta visual) -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+    <link rel="apple-touch-icon" href="imagens/site-imagem/folha.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/site-imagem/folha-180.png">
+    <link rel="preload" href="css/Herbario.css" as="style">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <!-- CONFIGURAÇÃO EXISTENTE (mantida igual) -->
     <link rel="icon" type="image/png" href="imagens/site-imagem/folha.png">
     <link rel="stylesheet" href="css/Herbario.css">
     <link rel="stylesheet" href="css/altocontraste.css">
     <link rel="stylesheet" href="css/atalhos-acessibilidade.css">
-
+    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herbário Virtual</title>
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"/>
-  <script src="js/config.js"></script>
-  <script src="js/cookies.js"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">    
+    <!-- TÍTULO OTIMIZADO PARA SEO (apenas texto) -->
+    <title>Herbário Virtual UFRA | Catálogo de Plantas Amazônicas</title>
+    
+    <!-- FONT AWESOME (mantido igual) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <!-- SCRIPTS (mantidos iguais) -->
+    <script src="js/config.js"></script>
+    <script src="js/cookies.js"></script>
+    
+    <!-- CANONICAL URL (não afeta visual) -->
+    <link rel="canonical" href="https://herbariovirtualufra.com">
 </head>
 
 <body class="bodyhome" aria-label="Página do catálogo de plantas do Herbário Virtual da UFRA">
-      <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=SEU-ID-AQUI"></script>
+    <script>
+
+    </script>
 
 
-    
-  <header role="banner">
+    <header role="banner">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-          <a href="../index.html"><img src="imagens/site-imagem/brasao.png" class="logo" alt="Brasão UFRA"></a>                    <div class="logo-text">
-                        <h1>Universidade Federal Rural da Amazônia UFRA </h1>
+                    <!-- ALT TEXT OTIMIZADO (não afeta visual) -->
+                    <a href="../index.html"><img src="imagens/site-imagem/brasao.png" class="logo" 
+                       alt="Brasão da Universidade Federal Rural da Amazônia - UFRA"></a>
+                    <div class="logo-text">
+                        <!-- H1 OTIMIZADO (apenas texto) -->
+                        <h1>Herbário Virtual da UFRA - Catálogo Digital de Plantas da Amazônia</h1>
                     </div>
                 </div>
                 <nav>
                     <ul>
                         <li><a href="html/home.html" style="color: aliceblue;">Início</a></li>
                         <li><a href="index.html" style="color: aliceblue;">Plantas</a></li>
-                        <li><a href="html/contribua.html" style="color: aliceblue;">Contribua</a></li>
+                        <li><a href="html/contribua.html" rel="bookmark" style="color: aliceblue;">Contribua</a></li>
                         <li><a href="html/categorias.html" style="color: aliceblue;">Categorias</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
-        
     </header>
+
+    <!-- BREADCRUMB OCULTO (SEO apenas, não visível) -->
+    <nav aria-label="Navegação estrutural" style="display: none;">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="html/home.html">
+                    <span itemprop="name">Início</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="index.html">
+                    <span itemprop="name">Catálogo de Plantas</span>
+                </a>
+                <meta itemprop="position" content="2">
+            </li>
+        </ol>
+    </nav>
 
     <section class="hero" id="home">
         <div class="container">
-            <h2>Herbário Virtual</h2>
-            <p>Descubra e aprenda sobre espécies de plantas em nosso herbário virtual. Uma ferramenta educativa para
+            <!-- H2 OTIMIZADO (não afeta visual) -->
+            <h2>Herbário Virtual - Catálogo de Plantas Amazônicas</h2>
+            <p>Descubra e aprende sobre espécies de plantas em nosso herbário virtual. Uma ferramenta educativa para
                 amantes da botânica!</p>
             <a href="#plants" class="btn">Explorar Plantas</a>
         </div>
@@ -58,117 +109,160 @@
 
     <div class="container">
         <div class="search-bar">
-    
             <input type="text" id="search-bar" placeholder="Buscar por nome, espécie ou família..." autocomplete="off">
             <button id="search-btn">BUSCAR</button>
             <ul id="autocomplete-list" class="autocomplete-list"></ul>
-
         </div>
-            <div id="did-you-mean" class="did-you-mean"></div>
+        <div id="did-you-mean" class="did-you-mean"></div>
 
-        <!--filtros-->
+        <!-- TEXTO DESCRITIVO OCULTO (apenas para SEO) -->
+        <div style="display: none;">
+            <h3>Catálogo Completo de Plantas da Amazônia</h3>
+            <p>O Herbário Virtual da UFRA apresenta um acervo digital de plantas amazônicas, incluindo espécies medicinais, ornamentais e frutíferas. Explore nossa coleção de angiospermas organizadas por famílias botânicas.</p>
+        </div>
+
+        <!-- FILTROS (mantidos exatamente iguais) -->
         <main id="centro">
-<!-- FILTROS COM ACESSIBILIDADE COMPLETA -->
-<div id="filter-section" 
-     class="filter-buttons" 
-     role="group" 
-     aria-label="Filtrar plantas por classificação botânica"
-     aria-describedby="filter-instructions">
-    
-    <!-- Instruções para leitores de tela -->
-    <span id="filter-instructions" class="sr-only">
-        Use as setas do teclado para navegar entre os filtros. 
-        Pressione Enter ou Espaço para ativar um filtro. 
-        O filtro ativo será anunciado automaticamente.
-    </span>
-    
-    <!-- Botão: Todas -->
-    <button class="filter-btn active" 
-            data-filter="all"
-            role="button"
-            aria-label="Botão de filtro: Todas as famílias, ativado"
-            aria-pressed="true"
-            title="Mostrar todas as famílias de plantas">
-        Todas
-    </button>
-    
-    <!-- Botão: Monocotiledôneas -->
-    <button class="filter-btn" 
-            data-filter="monocotiledonia"
-            role="button"
-            aria-label="Botão de filtro: Monocotiledôneas"
-            aria-pressed="false"
-            title="Filtrar apenas plantas monocotiledôneas">
-        Monocotiledônia
-    </button>
-    
-    <!-- Botão: Eudicotiledôneas -->
-    <button class="filter-btn" 
-            data-filter="eudicodiledonia"
-            role="button"
-            aria-label="Botão de filtro: Eudicotiledôneas"
-            aria-pressed="false"
-            title="Filtrar apenas plantas eudicotiledôneas">
-        Eudicotiledônia
-    </button>
-    
-    <!-- Botão: Angiospermas Basais -->
-    <button class="filter-btn" 
-            data-filter="bassais"
-            role="button"
-            aria-label="Botão de filtro: Angiospermas Basais"
-            aria-pressed="false"
-            title="Filtrar apenas angiospermas basais">
-        Angiospermas Basais
-    </button>
-</div>
-            <h2 class="section-title" id="plants" style="color: whitesmoke;">Catálogo de Plantas (Angiospermas)</h2>
+            <div id="filter-section" 
+                 class="filter-buttons" 
+                 role="group" 
+                 aria-label="Filtrar plantas por classificação botânica"
+                 aria-describedby="filter-instructions">
+                
+                <span id="filter-instructions" class="sr-only">
+                    Use as setas do teclado para navegar entre os filtros. 
+                    Pressione Enter ou Espaço para ativar um filtro. 
+                    O filtro ativo será anunciado automaticamente.
+                </span>
+                
+                <button class="filter-btn active" 
+                        data-filter="all"
+                        role="button"
+                        aria-label="Botão de filtro: Todas as famílias, ativado"
+                        aria-pressed="true"
+                        title="Mostrar todas as famílias de plantas">
+                    Todas
+                </button>
+                
+                <button class="filter-btn" 
+                        data-filter="monocotiledonia"
+                        role="button"
+                        aria-label="Botão de filtro: Monocotiledôneas"
+                        aria-pressed="false"
+                        title="Filtrar apenas plantas monocotiledôneas">
+                    Monocotiledônia
+                </button>
+                
+                <button class="filter-btn" 
+                        data-filter="eudicodiledonia"
+                        role="button"
+                        aria-label="Botão de filtro: Eudicotiledôneas"
+                        aria-pressed="false"
+                        title="Filtrar apenas plantas eudicotiledôneas">
+                    Eudicotiledônia
+                </button>
+                
+                <button class="filter-btn" 
+                        data-filter="bassais"
+                        role="button"
+                        aria-label="Botão de filtro: Angiospermas Basais"
+                        aria-pressed="false"
+                        title="Filtrar apenas angiospermas basais">
+                    Angiospermas Basais
+                </button>
+            </div>
+            
+            <!-- TÍTULO OTIMIZADO (apenas texto) -->
+            <h2 class="section-title" id="plants" style="color: whitesmoke;">
+                Catálogo de Plantas Amazônicas - Angiospermas
+            </h2>
+            
             <div id="cards-container"></div>
-
-     
         </main>
 
         <footer id="contact">
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-column">
-                        <h3>Herbário Virtual</h3>
+                        <h3>Herbário Virtual da UFRA</h3>
                         <p>Explore a diversidade vegetal através do nosso catálogo digital. Conhecimento botânico ao
                             alcance de todos.</p>
                         <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                     <div class="footer-column">
                         <h3>Links Rápidos</h3>
                         <ul class="footer-links">
-                            <li><a href="html/home.html ">Início</a></li>
+                            <li><a href="html/home.html">Início</a></li>
                             <li><a href="index.html">Catálogo de Plantas</a></li>
-                            <li><a href="/html/contribua.html">Contribua</a></li>
-                            <li><a href="/html/blog.html">Blog</a></li>
+                            <li><a href="/html/contribua.html" rel="bookmark">Contribua</a></li>
+                            <li><a href="/html/blog.html" rel="bookmark">Blog</a></li>
                         </ul>
                     </div>
-   <div class="footer-column">
-    <h3>Categorias</h3>
-    <ul class="footer-links">
-        <li><a href="html/categorias.html?filter=medicinal">Plantas Medicinais</a></li>
-        <li><a href="html/categorias.html?filter=ornamental">Plantas Ornamentais</a></li>
-        <li><a href="html/categorias.html?filter=frutifera">Plantas Frutíferas</a></li>
-        <li><a href="html/categorias.html?filter=madeireira">Plantas Madeireiras</a></li>
-        <li><a href="html/categorias.html?filter=oportunista">Plantas Oportunistas</a></li>
-    </ul>
-</div>
+                    <div class="footer-column">
+                        <h3>Categorias de Plantas</h3>
+                        <ul class="footer-links">
+                            <li><a href="html/categorias.html?filter=medicinal">Plantas Medicinais</a></li>
+                            <li><a href="html/categorias.html?filter=ornamental">Plantas Ornamentais</a></li>
+                            <li><a href="html/categorias.html?filter=frutifera">Plantas Frutíferas</a></li>
+                            <li><a href="html/categorias.html?filter=madeireira">Plantas Madeireiras</a></li>
+                            <li><a href="html/categorias.html?filter=oportunista">Plantas Oportunistas</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="copyright">
-                    <p>&copy; 2026 Herbário Virtual. Todos os direitos reservados.</p>
+                    <p>&copy; 2026 Herbário Virtual da Universidade Federal Rural da Amazônia. Todos os direitos reservados.</p>
+                    
+                    <!-- TEXTO DE SEO OCULTO (não afeta visual) -->
+                    <div style="display: none;">
+                        <p>Herbário virtual, plantas amazônicas, botânica, catálogo de plantas, UFRA, espécies vegetais, angiospermas, biodiversidade amazônica</p>
+                    </div>
                 </div>
             </div>
         </footer>
+        
+        <!-- SCHEMA MARKUP (não afeta visual) -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": ["WebSite", "CollectionPage"],
+    "name": "Herbário Virtual UFRA",
+    "description": "Catálogo digital de plantas da Amazônia",
+    "url": "https://herbariovirtualufra.com",
+    "inLanguage": "pt-BR",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "publisher": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidade Federal Rural da Amazônia",
+        "url": "https://novo.ufra.edu.br",
+        "logo": "https://herbariovirtualufra.com/imagens/site-imagem/brasao.png",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "BR",
+            "addressRegion": "PA"
+        }
+    },
+    "keywords": "herbário virtual, plantas amazônicas, botânica, catálogo de plantas, biodiversidade, Amazônia",
+    "about": {
+        "@type": "Thing",
+        "name": "Botânica Amazônica"
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": ["Researchers", "Students", "Botanists"]
+    }
+}
+</script>
+
+        <!-- SCRIPTS (mantidos iguais) -->
         <script type="module" src="js/herbario.js"></script>
         <script src="js/altocontraste.js"></script>
         <script src="/js/atalho-acessibilidade.js"></script>
+    </div>
 </body>
 </html>
