@@ -2,73 +2,157 @@
 <html lang="pt-BR">
 
 <head>
-    <link rel="icon" type="image/png" href="../imagens/site-imagem/folha.png">
+    <!-- Meta Tags Essenciais -->
     <meta charset="UTF-8">
-    <title>Família Botânica</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- 
+    ⚠️ IMPORTANTE: Estas meta tags serão atualizadas dinamicamente pelo JavaScript
+    Os valores iniciais são placeholders que o familia.js vai substituir
+    -->
+    
+    <!-- SEO Meta Tags - SERÃO ATUALIZADAS DINAMICAMENTE -->
+    <title>Família Botânica | Herbário Virtual UFRA</title>
+    <meta name="description" content="Explore espécies botânicas catalogadas no Herbário Virtual da UFRA">
+    <meta name="keywords" content="família botânica, herbário UFRA, plantas amazônicas">
+    <meta name="author" content="Herbário Virtual UFRA">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL - SERÁ ATUALIZADO -->
+    <link rel="canonical" href="https://herbariovirtualufra.com/familia/">
+    
+    <!-- Open Graph - SERÃO ATUALIZADOS -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://herbariovirtualufra.com/familia/">
+    <meta property="og:title" content="Família Botânica | Herbário Virtual UFRA">
+    <meta property="og:description" content="Explore espécies botânicas no Herbário Virtual da UFRA">
+    <meta property="og:image" content="https://herbariovirtualufra.com/imagens/default-familia.jpg">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Herbário Virtual UFRA">
+    
+    <!-- Twitter Card - SERÃO ATUALIZADOS -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Família Botânica | Herbário Virtual UFRA">
+    <meta name="twitter:description" content="Explore espécies botânicas no Herbário Virtual da UFRA">
+    <meta name="twitter:image" content="https://herbariovirtualufra.com/imagens/default-familia.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="../imagens/site-imagem/folha.png">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://vlibras.gov.br">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/Herbario.css">
     <link rel="stylesheet" href="../css/familia.css">
-        <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"/>
-  <script src="js/cookies.js"></script>
-<link rel="stylesheet" href="../css/altocontraste.css">
+    <link rel="stylesheet" href="../css/altocontraste.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"/>
+    
+    <!-- Schema.org - SERÁ INJETADO DINAMICAMENTE -->
+    <!-- O familia.js vai adicionar o script JSON-LD aqui -->
+    
+    <script src="js/cookies.js"></script>
 </head>
 
 <body data-family="apocynaceae">
-    <header>
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <header role="banner">
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <a href="../index.html"><img src="../imagens/site-imagem/brasao.png" class="logo" alt="Brasão UFRA"></a>
+                    <a href="../index.html" aria-label="Voltar para página inicial">
+                        <img src="../imagens/site-imagem/brasao.png" 
+                             class="logo" 
+                             alt="Brasão da Universidade Federal Rural da Amazônia - UFRA"
+                             width="60"
+                             height="60">
+                    </a>
                     <div class="logo-text">
-                        <h1>Universidade Federal Rural da Amazônia UFRA </h1>
+                        <h1>Universidade Federal Rural da Amazônia UFRA</h1>
                     </div>
                 </div>
-                <nav>
+                <nav role="navigation" aria-label="Menu principal">
                     <ul>
-                        <li><a href="home.html" style="color: aliceblue;">Início</a></li>
-                        <li><a href="../index.html" style="color: aliceblue;">Plantas</a></li>
-                        <li><a href="contribua.html" style="color: aliceblue;">Contribua</a></li>
-                        <li><a href="categorias.html" style="color: aliceblue;">Categorias</a></li>
-
+                        <li><a href="home.html" title="Ir para página inicial">Início</a></li>
+                        <li><a href="../index.html" title="Ver catálogo de plantas">Plantas</a></li>
+                        <li><a href="contribua.html" title="Saiba como contribuir">Contribua</a></li>
+                        <li><a href="categorias.html" title="Explorar categorias">Categorias</a></li>
                     </ul>
                 </nav>
             </div>
-
         </div>
     </header>
-                 
-                 
 
- <main class="mainfamily"> <h1 id="familia-nome"></h1><p style="visibility: hidden;" id="familia-descricao"></p>
- <article id="familia-artigo"></article>
- <aside class="ficha-botanica" id="ficha-botanica"> <h3>Ficha Botânica</h3><ul id="ficha-botanica"></ul></aside>
- <section class="catalogo-generos"  id="generos-section" class="generos-section"></section>
-     <div class="back-to-catalog-container">
-        <a href="../index.html" class="back-to-catalog-btn">
-            <i class="fas fa-arrow-left"></i>
-            Voltar ao Catálogo de Famílias
-        </a>
-    </div>
- </main>
-    <footer id="contact">
+    <!-- Breadcrumbs - SERÃO ATUALIZADOS DINAMICAMENTE -->
+    <nav aria-label="Breadcrumb" class="breadcrumbs">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="/">
+                    <span itemprop="name">Início</span>
+                </a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="/familias">
+                    <span itemprop="name">Famílias</span>
+                </a>
+                <meta itemprop="position" content="2" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name" id="breadcrumb-familia">Carregando...</span>
+                <meta itemprop="position" content="3" />
+            </li>
+        </ol>
+    </nav>
+
+    <main class="mainfamily" id="main-content" role="main">
+        <h1 id="familia-nome">Carregando família...</h1>
+        <p style="visibility: hidden;" id="familia-descricao"></p>
+        
+        <article id="familia-artigo"></article>
+        
+        <aside class="ficha-botanica" id="ficha-botanica-container">
+            <h3>Ficha Botânica</h3>
+            <ul id="ficha-botanica"></ul>
+        </aside>
+        
+        <section class="catalogo-generos" id="generos-section"></section>
+        
+        <div class="back-to-catalog-container">
+            <a href="../index.html" class="back-to-catalog-btn" aria-label="Voltar ao catálogo de famílias">
+                <i class="fas fa-arrow-left" aria-hidden="true"></i>
+                Voltar ao Catálogo de Famílias
+            </a>
+        </div>
+    </main>
+
+    <footer id="contact" role="contentinfo">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-column">
+                <article class="footer-column">
                     <h3>Herbário Virtual</h3>
-                    <p>Explore a diversidade vegetal através do nosso catálogo digital. Conhecimento botânico ao
-                        alcance de todos.</p>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
+                    <p>Explore a diversidade vegetal através do nosso catálogo digital. Conhecimento botânico ao alcance de todos.</p>
+                    <nav aria-label="Redes sociais">
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </nav>
+                </article>
+                
+                <nav class="footer-column" aria-label="Links rápidos">
                     <h3>Links Rápidos</h3>
                     <ul class="footer-links">
                         <li><a href="home.html">Início</a></li>
@@ -76,37 +160,82 @@
                         <li><a href="contribua.html">Contribua</a></li>
                         <li><a href="blog.html">Blog</a></li>
                     </ul>
-                </div>
-                <div class="footer-column">
+                </nav>
+                
+                <nav class="footer-column" aria-label="Categorias de plantas">
                     <h3>Categorias</h3>
-           <ul class="footer-links">
-        <li><a href="categorias.html?filter=medicinal">Plantas Medicinais</a></li>
-        <li><a href="categorias.html?filter=ornamental">Plantas Ornamentais</a></li>
-        <li><a href="categorias.html?filter=frutifera">Plantas Frutíferas</a></li>
-        <li><a href="categorias.html?filter=madeireira">Plantas Madeireiras</a></li>
-        <li><a href="categorias.html?filter=oportunista">Plantas Oportunistas</a></li>
-    </ul>
-                </div>
+                    <ul class="footer-links">
+                        <li><a href="categorias.html?filter=medicinal">Plantas Medicinais</a></li>
+                        <li><a href="categorias.html?filter=ornamental">Plantas Ornamentais</a></li>
+                        <li><a href="categorias.html?filter=frutifera">Plantas Frutíferas</a></li>
+                        <li><a href="categorias.html?filter=madeireira">Plantas Madeireiras</a></li>
+                        <li><a href="categorias.html?filter=oportunista">Plantas Oportunistas</a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="copyright">
                 <p>&copy; 2026 Herbário Virtual. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
-            <div vw class="enabled">
-    <div vw-access-button class="active"></div>
-    <div vw-plugin-wrapper>
-        <div class="vw-plugin-top-wrapper"></div>
-    </div>
-</div>
-<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-<script> new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
-<script src="../js/acessibilidade.js"></script>
 
+    <!-- VLibras Widget -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    
+    <!-- Scripts -->
+    <script src="../js/acessibilidade.js"></script>
     <script src="../js/familia.js"></script>
     <script src="../js/altocontraste.js"></script>
     <script src="../js/atalho-acessibilidade.js"></script>
-
+    
+    <!-- 
+    ===============================================
+    IMPORTANTE: SEO DINÂMICO
+    ===============================================
+    
+    O arquivo familia.js precisa ser atualizado para incluir
+    a atualização de meta tags. Veja o arquivo familia-seo.js
+    que criei como exemplo de como fazer isso.
+    
+    Resumo do que precisa ser feito:
+    
+    1. Quando o familia.js carregar os dados da família,
+       ele deve chamar uma função para atualizar SEO
+    
+    2. Essa função deve atualizar:
+       - Title
+       - Meta description
+       - Canonical URL
+       - Open Graph tags
+       - Schema.org JSON-LD
+       - Breadcrumbs
+    
+    3. Para Google indexar corretamente, você tem 2 opções:
+       
+       OPÇÃO A (RECOMENDADA): Server-Side Rendering
+       - Converter para PHP (veja familia-template.php)
+       - Meta tags vêm direto do servidor
+       - Google vê tudo imediatamente
+       
+       OPÇÃO B: Prerendering
+       - Usar serviço como Prerender.io
+       - Configurar .htaccess para redirecionar bots
+       - Manter JavaScript para usuários
+    
+    Veja os arquivos fornecidos anteriormente:
+    - familia-seo.js (próximo arquivo que vou criar)
+    - familia-template.php (versão PHP completa)
+    - seo-dinamico.js (biblioteca pronta)
+    ===============================================
+    -->
 </body>
 
 </html>

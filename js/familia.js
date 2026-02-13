@@ -299,3 +299,4 @@ document.addEventListener('DOMContentLoaded', () => {
 if (!familiaId && window.location.pathname.includes('familia.html')) {
     redirecionarPara404();
 }
+
